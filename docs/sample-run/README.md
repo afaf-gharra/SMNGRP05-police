@@ -1,7 +1,7 @@
 # A real match, in four files
 
 These are the actual artifacts from a two-process match played over real MCP
-HTTP transport on 2026-07-29 — not hand-written examples. `uoh-ag12` is this
+HTTP transport on 2026-07-29 — not hand-written examples. `SMNGRP05` is this
 team; `rival-01` is a second instance of the agent standing in for an opponent.
 
 | File | What it is |
@@ -19,5 +19,5 @@ to count for either team.
 Verify the commit chain yourself:
 
 ```bash
-uv run python -m p2p_chase verify --log docs/sample-run/log_rival-01-vs-uoh-ag12_g01.json
+uv run python -m p2p_chase verify --log docs/sample-run/log_rival-01-vs-SMNGRP05_g01.json
 ```

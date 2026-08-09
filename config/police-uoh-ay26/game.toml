@@ -86,7 +86,11 @@ timeout_seconds        = 60
 
 [email]
 enabled   = true
-recipient = "rmisegal+uoh26finalgame@gmail.com"
+recipient = "afafgharra000@gmail.com"   # FRIENDLY: report to ourselves, NOT the
+# lecturer. Both uoh-ay26 configs are set this way so that whichever role we end
+# up launching, a warm-up cannot be mailed to the lecturer as if it counted --
+# that would be a false declaration under rules 37-38. Flip BOTH to
+# rmisegal+uoh26finalgame@gmail.com by hand before the counted series, never mid-run.
 sender    = "me"
 
 [play]

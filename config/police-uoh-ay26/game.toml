@@ -22,7 +22,13 @@ mcp_servers = { cop = "http://127.0.0.1:8802/mcp", thief = "http://127.0.0.1:880
 [network]
 host                   = "0.0.0.0"                     # bind wide so a tunnel can reach us
 my_port                = 8802                          # MY MCP server port
-opponent_url           = "http://127.0.0.1:8801/mcp"   # the ONLY thing I know about the opponent
+# NOT the config for series W010. The agreed schedule puts SMNGRP05 on thief for
+# sub-games 1/3/5, and roles alternate from our *natural* role, so W010 launches
+# one process from the thief repo with config/thief-uoh-ay26. Launching this one
+# instead would make us police on the odd sub-games and collide with their cop.
+# Kept in step with their real endpoints so it is never a stale-localhost trap.
+opponent_url           = "https://theif.uohay26game.com/mcp"  # fallback; see opponent_urls
+opponent_urls = { cop = "https://cop.uohay26game.com/mcp", thief = "https://theif.uohay26game.com/mcp" }
 turn_timeout_seconds   = 180                           # DeadlineTracker: opponent silence budget
 poll_interval_seconds  = 0.5
 connect_timeout_seconds = 60

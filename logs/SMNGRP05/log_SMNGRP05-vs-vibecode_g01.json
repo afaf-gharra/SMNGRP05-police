@@ -19,9 +19,9 @@
     "winner_role": "thief",
     "steps": 34,
     "timezone": "Asia/Jerusalem",
-    "started_at": "2026-08-19T20:42:05.687101+00:00",
-    "ended_at": "2026-08-19T20:42:45.787101+00:00",
-    "duration_seconds": 40.1,
+    "started_at": "2026-08-19T21:19:18.579785+00:00",
+    "ended_at": "2026-08-19T21:19:38.939785+00:00",
+    "duration_seconds": 20.36,
     "tokens_total": 0,
     "barriers_used": 0,
     "phase_trail": [
@@ -255,11 +255,11 @@
         "model": "template-zero-token",
         "provider": "template",
         "code_version": "1.00",
-        "github_commit": "619369eabbba2a79f089487c88b4d7dac6ae19f0",
+        "github_commit": "b8b4c4197e3e5b89b8e74c532092ebff3262bad2",
         "git": {
-          "commit": "619369eabbba2a79f089487c88b4d7dac6ae19f0",
+          "commit": "b8b4c4197e3e5b89b8e74c532092ebff3262bad2",
           "branch": "main",
-          "tag": "v1.0-submission-43-g619369e"
+          "tag": "v1.0-submission-46-gb8b4c41"
         },
         "group_id": "SMNGRP05",
         "group_name": "SMNGRP05",
@@ -277,10 +277,10 @@
             "after_7_turns": 0.2
           }
         },
-        "declared_at": "2026-08-19T20:42:05.687003+00:00"
+        "declared_at": "2026-08-19T21:19:18.579652+00:00"
       },
-      "nonce": "3351cdd9d64f323704c6f61837b8932a",
-      "commit": "e327e716cd1f27a0fa83ce9c6d378083d2a880a68d116b74deacaee7ad4533de"
+      "nonce": "c4a012e3134a0a696b62936383e2d5a4",
+      "commit": "9bd7bba42b01fce87e4ddbdcab70c81a566075dc13752c0aebd4e6101d75af79"
     },
     {
       "payload": {
@@ -315,8 +315,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "9a9726763e81468e20ff960292715be0",
-      "commit": "972bd04e97be1d4b6e9f1c51021d992fe7e0405ff948183d1bc96519b9cc8563"
+      "nonce": "0845dbbdbdb9675a64fe32361321ca6e",
+      "commit": "e72a2d3baf96b5bd6b4ea26f079b4d621ed4a36a28f4cbdab21d4d65e7bc9cde"
     },
     {
       "payload": {
@@ -351,8 +351,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "42f1aa5f4a90e0c1264bc4a7bf24bbaf",
-      "commit": "07a48ccb51f59f2ef118436c20e9bf32e6d55939f4e188da143e1f857301f287"
+      "nonce": "b47d395c459d2c97a536f77ae5b13fb2",
+      "commit": "cab6f8c767115ed1aea94d248445774d18ac0bab907dffff0b6428a7c15c0bd0"
     },
     {
       "payload": {
@@ -387,8 +387,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "a79e2e33784ecd7b21e72d2b2ffd6b6f",
-      "commit": "939a01e8f1ef81c0703457d2a9028f08448669b73f302212acc7c2c4031f0e04"
+      "nonce": "dc7e1541fe7111f22e11747b1e459e31",
+      "commit": "26d1fa490e0be2908811687e9e8f3b69b9d9b19496b5ed1b9fb9314dc64b2e8e"
     },
     {
       "payload": {
@@ -423,8 +423,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "c4dd67f68099e5b896a6c1ec4b131520",
-      "commit": "1363f2578ba887773f6b7f9249fd490c9ba1d968208053cb42b60fecbb1584dd"
+      "nonce": "24f4fc1ff15ae5bd704fe79d485fbfbb",
+      "commit": "c99cbbd8b2429e1199022762de3a7259617d69488f8c96aecccbebc78cd01c1c"
     },
     {
       "payload": {
@@ -459,8 +459,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "9ed9ffe69d3692968d87758ded749987",
-      "commit": "5c48321b3273538a0afd8b51b722b2d634b148b6707a5d10b6ea03609f1297ca"
+      "nonce": "39705ac93b5e69530c54f806b11a779e",
+      "commit": "e60d3de43d51baa828199eda8f7971f867a96e638af8deeaccfc8a35a5b71c63"
     },
     {
       "payload": {
@@ -495,8 +495,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "c384a3e7e1145086dcba90350ea893c4",
-      "commit": "91189463ea4b6d885f8230e3dbb8eba7c61d6dcd7d25f0fc7c03b82dc2f3d7d6"
+      "nonce": "8df30e622b35af4ccbf94e7220fc8636",
+      "commit": "711ed39c926a84b8daca14c1f0222ec02d45a8de63feddea5633b0ced5ac20fd"
     },
     {
       "payload": {
@@ -531,8 +531,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "5ce622c3da21fe9da7a581711a292251",
-      "commit": "68242dd8b81dffeefa633e5e235ae15e425509b0da7151fbc871e1394f6db809"
+      "nonce": "483a9cc2b9afa19c7318d929cfb04dd7",
+      "commit": "3027c53e1a8a47e845fc483840e552c673d01b01b7ea055c7e8d8c5bd05e734c"
     },
     {
       "payload": {
@@ -567,8 +567,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "a161c32482a3f34a1431c4f902f1eda6",
-      "commit": "6184cdb63f3d4975f8dc5d0d83533412a59199a1c97ca3e10862a84a69f3c1f1"
+      "nonce": "fc32a37176562d31713d0b34dcd8c3a0",
+      "commit": "699857211171cf69f8b292e14dcfaebebfd5ded1dcc3d64973e3953f36a89534"
     },
     {
       "payload": {
@@ -603,8 +603,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "d4148155b2a8568a107527734e72b7db",
-      "commit": "258c7349ae01c7c36ddbedace2085abcc3251f1582b417f45c9515f14c61a771"
+      "nonce": "707953295aee8049d555cd22960fdb85",
+      "commit": "192e88693d233eb36486447252c55771d118cbfa8486b9129fa59147c74cbf00"
     },
     {
       "payload": {
@@ -639,8 +639,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "9dba72e83eeb608cd1fd7bde4279c37d",
-      "commit": "fdb5d5ec8af8f7613bb50392097aa8a1f818d9c695f1b6772d265ef6dc133b0c"
+      "nonce": "0c11200645c83be588f60bb1419d7322",
+      "commit": "b6f5a17ac981b9fcff6762817c8092e8aa3b171a7c0a9f9ae054cdfe2f18befc"
     },
     {
       "payload": {
@@ -675,8 +675,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "f3387fdc10e3c6020e07d0130338c1aa",
-      "commit": "7499214f2d47ec951341bc317a6bc912ac9fa5af98fd35392ada264399703f45"
+      "nonce": "ecb8449edeaf58d6805e78a1bea066da",
+      "commit": "21047521564ec8ca61062c1e127c7bac03f177b324fff8831d812b154feb1d02"
     },
     {
       "payload": {
@@ -711,8 +711,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "410182f840842aeec43cc5b2878e1e1b",
-      "commit": "911a16cba5cc6bbe2db5c63ccbdb7e601c7e96b1858e14ca9a327b99a8ababb4"
+      "nonce": "86b163df2dbc0b56485e743a5c54fbb8",
+      "commit": "227ef87df09e2226b28f2c1822b981eb0b33ab0c5771b638cb9a3a6708a274fb"
     },
     {
       "payload": {
@@ -747,8 +747,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "936d268449bad419a19d0a52afcfa195",
-      "commit": "dfe231424c02c878e41b79fd872aee2c0ec36c3f33b7ab86b50946bf9b8033c8"
+      "nonce": "d7a597d9788a19941bbf4c5108ec88c4",
+      "commit": "204de3eb9cc0526338ee90fabd145835309f2ad80e6d0437e38ddb380b8fcb71"
     },
     {
       "payload": {
@@ -783,8 +783,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "07b00a34e98ccc9edf3997dce00af599",
-      "commit": "d7b3a4bdbe15fd99d9e3559f61d24bf6be65c7e79ca1edfa7cebd5b2024a2131"
+      "nonce": "b278e61f2d074db992a393d08442c5ba",
+      "commit": "f857421773c6bc493b01d88ea279afda23eb19b11baba1190e813338c8e2a887"
     },
     {
       "payload": {
@@ -819,8 +819,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "54193a964d3e2518cb84443b2b20a10b",
-      "commit": "ba0c7357d1b97c7ab3a15213753d7d8ca4defb4c2571cb91a6137c26b994e118"
+      "nonce": "259ba22c18896508d2b5e6ab2d9c18ea",
+      "commit": "d276f721c2e5ab07bbbe74f3c70dcb867cf41c8dae769a2a6d6903f2a9d65491"
     },
     {
       "payload": {
@@ -855,8 +855,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "eca234932bc78d5eb89396d1ac8f786e",
-      "commit": "6e1dabb2422e61bcca8d1c256c246ad6e0620f110213cc0327562d2b0dfa25b7"
+      "nonce": "cd79a9b1f77d4d009a2c9004792291d2",
+      "commit": "630ef4b42d8e9240630857a6943edb3cc7fa59ba74d21c29ad910b62127026df"
     },
     {
       "payload": {
@@ -891,8 +891,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "22285ed95bf31080ce9cdc77e8063485",
-      "commit": "f7da7a395c94120de70168d85d9382a6ab678332df03c424a1b044e7e93ba5f8"
+      "nonce": "dbafcf879635405b84ec3faa83ac5913",
+      "commit": "514aab98906b83bd432bd1b43dc694033183f200ab09abc0feab6e546461a594"
     },
     {
       "payload": {
@@ -927,8 +927,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "7a2884fc6f565b27ebb1c9495be62c11",
-      "commit": "36bd381891ce6683bcf2a8d8e51c2c1dacd6f4e35d0165a846f008617a61a1ea"
+      "nonce": "9eb6928577d407c54a70f734fc3783b8",
+      "commit": "288d81f7b3f35ec29dd22d2cc2d20215c9b2630036d6d419587bb48ed0c268ed"
     },
     {
       "payload": {
@@ -963,8 +963,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "a46676887b96e3eab2eb35184e69643b",
-      "commit": "2967cd087aeaec0b9000da6782fda418d5dba2e43b53aa445d7358e070724564"
+      "nonce": "9fc1c8bd4b6a54cdab962f1be941ebfd",
+      "commit": "fb3efe536aad72cd504588922a65c6901f71efd32162e23777f6ee22484a1782"
     },
     {
       "payload": {
@@ -999,8 +999,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "555ef4c67f83ee3ec476180f1589e34d",
-      "commit": "3974ec3d5b97a4be2ce5ed7963e3a0867af40db863298fdeaa5207b3162ecde0"
+      "nonce": "1cb63ecf2057d95a4bb1434964a6c8c6",
+      "commit": "42e917a1910583e1b6752e407f384cca5f1b72d7d7333c1ce59bba5e74794788"
     },
     {
       "payload": {
@@ -1035,8 +1035,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "54796c34df57194ceb914c5f0f758e8f",
-      "commit": "bf25fb5c4c6c22147a3fe4c6f820d673be5d8c89b178198e0a938ef547e0c198"
+      "nonce": "6400100bf0735d5fb4a13df274fb5db6",
+      "commit": "b8595fbd2365de76cd47b3f8abec8e0f54d8156be6b664ea6ded941f9fcc9cb6"
     },
     {
       "payload": {
@@ -1071,8 +1071,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "cc6995f4cb99116fed6c2f1d66a4e66a",
-      "commit": "09e830475acdcb75dc64b048794f7229f02beb37942c4b584433075d7432a5cb"
+      "nonce": "123ba3f07c031531f24eb49eadab80ad",
+      "commit": "43ff5596e5c0f66c4c8d0c6a17bbfc311a43829033a3bd983dbb57632904a01a"
     },
     {
       "payload": {
@@ -1107,8 +1107,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "64f92ce2bdc3c66db6c1cd9c8a3767c3",
-      "commit": "30028b84532631c80f83028f23160dedc135257140610083b09645ad4dc68748"
+      "nonce": "18558f588a24d7bc03e0194b93875694",
+      "commit": "f655adf2f3b3657e6c601b7e0df22027eb4790cdeaffa15613edb29fd53f94d0"
     },
     {
       "payload": {
@@ -1143,8 +1143,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "5d4ab6e82de7bf4b42cfd78826834a34",
-      "commit": "d0d3ebd8e6376e30af4f4c2031fd80ed774ddf4eef85c52b916b0830a4fd68df"
+      "nonce": "88d44582d0be2c58bcedeee5d0dfc859",
+      "commit": "82d7be7b783a7c30b1093f00bf0cd15f804f9421701ccafade530bd40ef33910"
     },
     {
       "payload": {
@@ -1179,8 +1179,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "e7df35e93c4308f2bebd5fc6a3e52a35",
-      "commit": "03dc93bf7f7bcedaccc982ffc51b9f6c3a8ff15a45558b603d0b413cae598925"
+      "nonce": "efc0803a2561e77ba5e147fd82476415",
+      "commit": "f95b8fb98bfeb4a9ab8db3f0c3214c914bc8b0246bc32914deb8ae69d7622bbc"
     },
     {
       "payload": {
@@ -1215,8 +1215,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "86ee8f0a3b8fc1e10458e35f24ccccdc",
-      "commit": "c56c67a552859cf0535ebbb33678d7860bfbae0a936414eb0baacfe28102d182"
+      "nonce": "9e5be81441af666f169b3d5fbe311a70",
+      "commit": "ff10e6cb5e683d778fd0f90d1cdb03b90ec46896bfd81099d02f2f6f02585358"
     },
     {
       "payload": {
@@ -1251,8 +1251,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "6ca795f555733995bf7a6500b259cfd2",
-      "commit": "a4ce67484575187bc06e40c978eb00c24bc74323fc60c9fbe66f7b7583fc5c26"
+      "nonce": "3db2737327e98003560f23ba605bb089",
+      "commit": "95b58498314426aa056357e324b660c5f6d9a95bf046b682f5c778ff38f9628a"
     },
     {
       "payload": {
@@ -1287,8 +1287,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "054934dfa551e1faa1ba60aa30a891b6",
-      "commit": "d65cbe5d77611e60e9d5b0140757b9d554118b1f295f3ec1fc42dc4ea902c905"
+      "nonce": "cd6144a02e47236a94ca6bc7d7780cce",
+      "commit": "defda7e4cc0153380d83a2ac32d665e0e585dd341a2163bc5284d647d0e94a6e"
     },
     {
       "payload": {
@@ -1323,8 +1323,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "58229072ae5eeeba50054ca4d17040d5",
-      "commit": "c781c556cece3720d5c6afcbda294fabca536720050f3a126b4f8bd006792062"
+      "nonce": "b544d00d73e70233a4a23d16b00cc3b0",
+      "commit": "0ccc77cae49515c08beb9a19ca354a67c734c99ebdfacc24b07a61feb20ccd67"
     },
     {
       "payload": {
@@ -1359,8 +1359,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "4ccd7dde68ee318d818e1e8f577ca1b2",
-      "commit": "0e2682020e7b289c7c3dbf9cb2356d0dccc3ebc92fb3441ed7ee49e0b006a36f"
+      "nonce": "28f38325c5cef6abc9cf1bccf760c8d8",
+      "commit": "e6d7db10994d8ee15abcd3899ce931d6f1a855937b0030ffa293161fc600d007"
     },
     {
       "payload": {
@@ -1395,8 +1395,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "3dd01aa0810f23158909cd4881f73558",
-      "commit": "9702f39807f3e3525245c2b285c73b8262a7a81731babc912ac603ad4ac082e4"
+      "nonce": "2cfed20a67ed001e76b383cd8efc2b5a",
+      "commit": "b1b87be543f9a08136f08d26b2192a5be9b8e8f23706ed95fb34e13c5d291b91"
     },
     {
       "payload": {
@@ -1431,8 +1431,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "292a1de6c943ca40c06803767bc2a5c5",
-      "commit": "ef14d88312ec989460292f0a1c791e50b269078266a7075bd254ee697aa0f09b"
+      "nonce": "b79f04f79a724a3c900bc305c2c2f2b1",
+      "commit": "ee44a5729ee1b49480a79d9c0a9a2d106ee25b85af9849adac3959693ebaf919"
     },
     {
       "payload": {
@@ -1467,8 +1467,8 @@
         ],
         "claim_response": null
       },
-      "nonce": "0c8cabe5fcc4f0574e9c3950a0ee9044",
-      "commit": "985855b3180ca7415249aaba1cf17b2be2b99e503a3fd68a340776b026976f76"
+      "nonce": "06f74a15ff3636f0df4ed8894a86521f",
+      "commit": "d83c16927c53a7149254592188ea94a5339507a6f6f5a705eccfeac547a4e4e5"
     },
     {
       "payload": {
@@ -1503,13 +1503,13 @@
         ],
         "claim_response": null
       },
-      "nonce": "08406264696de53146d6699a340b8d06",
-      "commit": "c168eeca75bf577e996fc247fb2092b056c014ca8e79810186b53eb0dd00f30c"
+      "nonce": "be363d8af2914ac92a6a334e4a54dbb4",
+      "commit": "8bc4d0bc7a60034f0398fb46ca78e2fdfb8e3602c6329352c4b6f92819ee00a4"
     }
   ],
   "mutual_agreement": {
     "opponent_group_id": "vibecode",
-    "sha256": "146a4e486cd1299c34393be86903c9635640e1a6f97abb143f9743651ec00494",
+    "sha256": "7847d1151e9aa04acfbbd747a0994fbdcd344a14670641ac4ce85fa8e5c4dbdd",
     "confirmed": true
   }
 }

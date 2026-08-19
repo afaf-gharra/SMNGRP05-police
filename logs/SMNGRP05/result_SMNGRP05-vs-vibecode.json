@@ -24,13 +24,13 @@
         "SMNGRP05": "police",
         "vibecode": "thief"
       },
-      "started_at": "2026-08-19T20:42:05.687101+00:00",
-      "ended_at": "2026-08-19T20:42:45.787101+00:00",
+      "started_at": "2026-08-19T21:19:18.579785+00:00",
+      "ended_at": "2026-08-19T21:19:38.939785+00:00",
       "result": "survival",
       "winner_group": "vibecode",
       "tie": false,
       "github_commit": {
-        "SMNGRP05": "619369eabbba2a79f089487c88b4d7dac6ae19f0",
+        "SMNGRP05": "b8b4c4197e3e5b89b8e74c532092ebff3262bad2",
         "vibecode": "declared-in-their-own-report"
       },
       "tokens": {
@@ -47,7 +47,11 @@
       },
       "audit": {
         "log_verified": true,
-        "tampered": false
+        "tampered": false,
+        "opponent_present": true,
+        "results_agree": true,
+        "opponent_result_claim": "survival",
+        "tampering_detected": false
       }
     },
     {
@@ -56,13 +60,13 @@
         "SMNGRP05": "thief",
         "vibecode": "police"
       },
-      "started_at": "2026-08-19T20:42:52.940452+00:00",
-      "ended_at": "2026-08-19T20:44:07.550452+00:00",
+      "started_at": "2026-08-19T21:19:44.054035+00:00",
+      "ended_at": "2026-08-19T21:21:00.124035+00:00",
       "result": "survival",
       "winner_group": "SMNGRP05",
       "tie": false,
       "github_commit": {
-        "SMNGRP05": "619369eabbba2a79f089487c88b4d7dac6ae19f0",
+        "SMNGRP05": "b8b4c4197e3e5b89b8e74c532092ebff3262bad2",
         "vibecode": "declared-in-their-own-report"
       },
       "tokens": {
@@ -79,7 +83,11 @@
       },
       "audit": {
         "log_verified": true,
-        "tampered": false
+        "tampered": false,
+        "opponent_present": true,
+        "results_agree": true,
+        "opponent_result_claim": "survival",
+        "tampering_detected": false
       }
     },
     {
@@ -88,13 +96,13 @@
         "SMNGRP05": "police",
         "vibecode": "thief"
       },
-      "started_at": "2026-08-19T20:44:12.577305+00:00",
-      "ended_at": "2026-08-19T20:44:31.757305+00:00",
+      "started_at": "2026-08-19T21:21:05.258982+00:00",
+      "ended_at": "2026-08-19T21:21:24.678982+00:00",
       "result": "survival",
       "winner_group": "vibecode",
       "tie": false,
       "github_commit": {
-        "SMNGRP05": "619369eabbba2a79f089487c88b4d7dac6ae19f0",
+        "SMNGRP05": "b8b4c4197e3e5b89b8e74c532092ebff3262bad2",
         "vibecode": "declared-in-their-own-report"
       },
       "tokens": {
@@ -111,7 +119,11 @@
       },
       "audit": {
         "log_verified": true,
-        "tampered": false
+        "tampered": false,
+        "opponent_present": true,
+        "results_agree": true,
+        "opponent_result_claim": "survival",
+        "tampering_detected": false
       }
     },
     {
@@ -120,13 +132,13 @@
         "SMNGRP05": "thief",
         "vibecode": "police"
       },
-      "started_at": "2026-08-19T20:44:36.517042+00:00",
-      "ended_at": "2026-08-19T20:45:47.447042+00:00",
+      "started_at": "2026-08-19T21:21:29.381498+00:00",
+      "ended_at": "2026-08-19T21:22:45.301498+00:00",
       "result": "survival",
       "winner_group": "SMNGRP05",
       "tie": false,
       "github_commit": {
-        "SMNGRP05": "619369eabbba2a79f089487c88b4d7dac6ae19f0",
+        "SMNGRP05": "b8b4c4197e3e5b89b8e74c532092ebff3262bad2",
         "vibecode": "declared-in-their-own-report"
       },
       "tokens": {
@@ -143,7 +155,11 @@
       },
       "audit": {
         "log_verified": true,
-        "tampered": false
+        "tampered": false,
+        "opponent_present": true,
+        "results_agree": true,
+        "opponent_result_claim": "survival",
+        "tampering_detected": false
       }
     },
     {
@@ -152,13 +168,13 @@
         "SMNGRP05": "police",
         "vibecode": "thief"
       },
-      "started_at": "2026-08-19T20:45:52.192929+00:00",
-      "ended_at": "2026-08-19T20:46:11.372929+00:00",
+      "started_at": "2026-08-19T21:22:49.925684+00:00",
+      "ended_at": "2026-08-19T21:23:08.985684+00:00",
       "result": "survival",
       "winner_group": "vibecode",
       "tie": false,
       "github_commit": {
-        "SMNGRP05": "619369eabbba2a79f089487c88b4d7dac6ae19f0",
+        "SMNGRP05": "b8b4c4197e3e5b89b8e74c532092ebff3262bad2",
         "vibecode": "declared-in-their-own-report"
       },
       "tokens": {
@@ -175,7 +191,11 @@
       },
       "audit": {
         "log_verified": true,
-        "tampered": false
+        "tampered": false,
+        "opponent_present": true,
+        "results_agree": true,
+        "opponent_result_claim": "survival",
+        "tampering_detected": false
       }
     },
     {
@@ -184,13 +204,13 @@
         "SMNGRP05": "thief",
         "vibecode": "police"
       },
-      "started_at": "2026-08-19T20:46:16.169672+00:00",
-      "ended_at": "2026-08-19T20:47:27.509672+00:00",
+      "started_at": "2026-08-19T21:23:13.642076+00:00",
+      "ended_at": "2026-08-19T21:24:27.602076+00:00",
       "result": "survival",
       "winner_group": "SMNGRP05",
       "tie": false,
       "github_commit": {
-        "SMNGRP05": "619369eabbba2a79f089487c88b4d7dac6ae19f0",
+        "SMNGRP05": "b8b4c4197e3e5b89b8e74c532092ebff3262bad2",
         "vibecode": "declared-in-their-own-report"
       },
       "tokens": {
@@ -207,7 +227,11 @@
       },
       "audit": {
         "log_verified": true,
-        "tampered": false
+        "tampered": false,
+        "opponent_present": true,
+        "results_agree": true,
+        "opponent_result_claim": "survival",
+        "tampering_detected": false
       }
     }
   ],
@@ -228,8 +252,8 @@
       "vibecode": 0
     },
     "games_played_including_this": {
-      "SMNGRP05": 2,
-      "vibecode": 7
+      "SMNGRP05": 3,
+      "vibecode": 8
     },
     "first_meeting_between_groups": true,
     "diversity_reward_applied": {

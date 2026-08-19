@@ -12,8 +12,8 @@
     "result": "result_SMNGRP05-vs-vibecode.json"
   },
   "timezone": "Asia/Jerusalem",
-  "game_started_at": "2026-08-19T20:42:05.687101+00:00",
-  "game_ended_at": "2026-08-19T20:47:27.509672+00:00",
+  "game_started_at": "2026-08-19T21:19:18.579785+00:00",
+  "game_ended_at": "2026-08-19T21:24:27.602076+00:00",
   "num_sub_games": 6,
   "max_tokens_per_game": 200000,
   "groups": {

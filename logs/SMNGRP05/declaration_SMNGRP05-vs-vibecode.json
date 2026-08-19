@@ -1,0 +1,74 @@
+{
+  "_schema": "Pre-game declaration covering the WHOLE match (every sub-game) between two teams. This is the single home for everything that does not change while the sub-games are played: team identity, members, the cop and thief repository URLs, MCP server URLs, hardware specification, language model, the agreed token ceiling, and the match start and end times. Roles alternate across sub-games, so no role and no sub_game_number appear here. Both teams sign this and lock it cryptographically before play begins (book ch.5, step zero). Anything that varies per sub-game — the commit hash, the moves, the scores — lives in the log and result artifacts instead.",
+  "schema_version": "1.1",
+  "declaration_type": "pre_game_declaration",
+  "game_id": "SMNGRP05-vs-vibecode",
+  "game_uid": "f3926768-06be-e93c-6cba-bd6ebf142059",
+  "links": {
+    "_remark": "Logical roles, NOT fixed filenames. Every actual filename is derived from the game_id so files from different matches can never be confused. Match-level files (declaration, result) are named <role>_<game_id>.json; per-sub-game files (config, log) are named <role>_<game_id>_g<NN>.json where <NN> is the sub_game_number.",
+    "declaration": "declaration_SMNGRP05-vs-vibecode.json",
+    "config": "config_SMNGRP05-vs-vibecode_g<NN>.json",
+    "log": "log_SMNGRP05-vs-vibecode_g<NN>.json",
+    "result": "result_SMNGRP05-vs-vibecode.json"
+  },
+  "timezone": "Asia/Jerusalem",
+  "game_started_at": "2026-08-19T20:42:05.687101+00:00",
+  "game_ended_at": "2026-08-19T20:47:27.509672+00:00",
+  "num_sub_games": 6,
+  "max_tokens_per_game": 200000,
+  "groups": {
+    "group_1": {
+      "group_id": "SMNGRP05",
+      "group_name": "SMNGRP05",
+      "members": [
+        "Afaf Gharra",
+        "Reem Awawdy"
+      ],
+      "repos": {
+        "cop": "https://github.com/afaf-gharra/SMNGRP05-police",
+        "thief": "https://github.com/afaf-gharra/SMNGRP05-thief"
+      },
+      "mcp_servers": {
+        "cop": "https://f0eb-147-236-163-154.ngrok-free.app/mcp",
+        "thief": "https://f0eb-147-236-163-154.ngrok-free.app/mcp"
+      },
+      "llm_model": "template-zero-token",
+      "hardware_spec": {
+        "cpu_type": "AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD",
+        "cpu_freq_mhz": null,
+        "cpu_cores": 12,
+        "ram_gb": null,
+        "gpu_model": "NVIDIA GeForce RTX 3070",
+        "vram_gb": 8.0
+      },
+      "signature": "c80fb331d91174ec53295a178ebe9165e3ed2bfa2757cc5e853af7320717d870"
+    },
+    "group_2": {
+      "group_id": "vibecode",
+      "group_name": "vibecode",
+      "members": [
+        "Ron Marom",
+        "Amit Kuperminz"
+      ],
+      "repos": {
+        "cop": "https://github.com/AmitKuper/vibecode-cop",
+        "thief": "https://github.com/AmitKuper/vibecode-thief"
+      },
+      "mcp_servers": {
+        "cop": "http://62.56.220.143:61224/mcp",
+        "thief": "http://62.56.220.143:61223/mcp"
+      },
+      "llm_model": "none (template hints; pure-Python algorithmic movement)",
+      "hardware_spec": {
+        "cpu_type": null,
+        "cpu_freq_mhz": null,
+        "cpu_cores": null,
+        "ram_gb": null,
+        "gpu_model": null,
+        "vram_gb": null
+      },
+      "signature": "946389e0f2d908f48298f12d31a0c9aba62982f4b6168a1392ec78af38a4f221"
+    }
+  },
+  "declaration_sha256": "79f497f31d4907e67170c9708e1cd5f1e78d1ae485d9787958bd15387e7007a1"
+}

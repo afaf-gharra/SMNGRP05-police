@@ -1,0 +1,245 @@
+{
+  "_schema": "Final result for the WHOLE match (all sub-games) between two teams. It condenses the per-sub-game logs into a per-group score for each sub-game plus the aggregate the lecturer needs to build the league standings. Static team metadata is not repeated here — it lives in the declaration and is referenced by game_id and group_id. Both teams must agree on this result and each sends its own copy (book ch.9).",
+  "schema_version": "1.1",
+  "report_type": "final_game_result",
+  "game_id": "SMNGRP05-vs-vibecode",
+  "game_uid": "f3926768-06be-e93c-6cba-bd6ebf142059",
+  "links": {
+    "_remark": "Logical roles, NOT fixed filenames. Every actual filename is derived from the game_id so files from different matches can never be confused. Match-level files (declaration, result) are named <role>_<game_id>.json; per-sub-game files (config, log) are named <role>_<game_id>_g<NN>.json where <NN> is the sub_game_number.",
+    "declaration": "declaration_SMNGRP05-vs-vibecode.json",
+    "config": "config_SMNGRP05-vs-vibecode_g<NN>.json",
+    "log": "log_SMNGRP05-vs-vibecode_g<NN>.json",
+    "result": "result_SMNGRP05-vs-vibecode.json"
+  },
+  "timezone": "Asia/Jerusalem",
+  "groups": [
+    "SMNGRP05",
+    "vibecode"
+  ],
+  "num_sub_games": 6,
+  "sub_games": [
+    {
+      "sub_game_number": 1,
+      "roles": {
+        "SMNGRP05": "police",
+        "vibecode": "thief"
+      },
+      "started_at": "2026-08-19T20:42:05.687101+00:00",
+      "ended_at": "2026-08-19T20:42:45.787101+00:00",
+      "result": "survival",
+      "winner_group": "vibecode",
+      "tie": false,
+      "github_commit": {
+        "SMNGRP05": "619369eabbba2a79f089487c88b4d7dac6ae19f0",
+        "vibecode": "declared-in-their-own-report"
+      },
+      "tokens": {
+        "SMNGRP05": 0,
+        "vibecode": 0
+      },
+      "score": {
+        "SMNGRP05": 5,
+        "vibecode": 10
+      },
+      "log_files": {
+        "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-vibecode_g01.json",
+        "vibecode": "vibecode/log_SMNGRP05-vs-vibecode_g01.json"
+      },
+      "audit": {
+        "log_verified": true,
+        "tampered": false
+      }
+    },
+    {
+      "sub_game_number": 2,
+      "roles": {
+        "SMNGRP05": "thief",
+        "vibecode": "police"
+      },
+      "started_at": "2026-08-19T20:42:52.940452+00:00",
+      "ended_at": "2026-08-19T20:44:07.550452+00:00",
+      "result": "survival",
+      "winner_group": "SMNGRP05",
+      "tie": false,
+      "github_commit": {
+        "SMNGRP05": "619369eabbba2a79f089487c88b4d7dac6ae19f0",
+        "vibecode": "declared-in-their-own-report"
+      },
+      "tokens": {
+        "SMNGRP05": 0,
+        "vibecode": 0
+      },
+      "score": {
+        "SMNGRP05": 10,
+        "vibecode": 5
+      },
+      "log_files": {
+        "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-vibecode_g02.json",
+        "vibecode": "vibecode/log_SMNGRP05-vs-vibecode_g02.json"
+      },
+      "audit": {
+        "log_verified": true,
+        "tampered": false
+      }
+    },
+    {
+      "sub_game_number": 3,
+      "roles": {
+        "SMNGRP05": "police",
+        "vibecode": "thief"
+      },
+      "started_at": "2026-08-19T20:44:12.577305+00:00",
+      "ended_at": "2026-08-19T20:44:31.757305+00:00",
+      "result": "survival",
+      "winner_group": "vibecode",
+      "tie": false,
+      "github_commit": {
+        "SMNGRP05": "619369eabbba2a79f089487c88b4d7dac6ae19f0",
+        "vibecode": "declared-in-their-own-report"
+      },
+      "tokens": {
+        "SMNGRP05": 0,
+        "vibecode": 0
+      },
+      "score": {
+        "SMNGRP05": 5,
+        "vibecode": 10
+      },
+      "log_files": {
+        "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-vibecode_g03.json",
+        "vibecode": "vibecode/log_SMNGRP05-vs-vibecode_g03.json"
+      },
+      "audit": {
+        "log_verified": true,
+        "tampered": false
+      }
+    },
+    {
+      "sub_game_number": 4,
+      "roles": {
+        "SMNGRP05": "thief",
+        "vibecode": "police"
+      },
+      "started_at": "2026-08-19T20:44:36.517042+00:00",
+      "ended_at": "2026-08-19T20:45:47.447042+00:00",
+      "result": "survival",
+      "winner_group": "SMNGRP05",
+      "tie": false,
+      "github_commit": {
+        "SMNGRP05": "619369eabbba2a79f089487c88b4d7dac6ae19f0",
+        "vibecode": "declared-in-their-own-report"
+      },
+      "tokens": {
+        "SMNGRP05": 0,
+        "vibecode": 0
+      },
+      "score": {
+        "SMNGRP05": 10,
+        "vibecode": 5
+      },
+      "log_files": {
+        "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-vibecode_g04.json",
+        "vibecode": "vibecode/log_SMNGRP05-vs-vibecode_g04.json"
+      },
+      "audit": {
+        "log_verified": true,
+        "tampered": false
+      }
+    },
+    {
+      "sub_game_number": 5,
+      "roles": {
+        "SMNGRP05": "police",
+        "vibecode": "thief"
+      },
+      "started_at": "2026-08-19T20:45:52.192929+00:00",
+      "ended_at": "2026-08-19T20:46:11.372929+00:00",
+      "result": "survival",
+      "winner_group": "vibecode",
+      "tie": false,
+      "github_commit": {
+        "SMNGRP05": "619369eabbba2a79f089487c88b4d7dac6ae19f0",
+        "vibecode": "declared-in-their-own-report"
+      },
+      "tokens": {
+        "SMNGRP05": 0,
+        "vibecode": 0
+      },
+      "score": {
+        "SMNGRP05": 5,
+        "vibecode": 10
+      },
+      "log_files": {
+        "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-vibecode_g05.json",
+        "vibecode": "vibecode/log_SMNGRP05-vs-vibecode_g05.json"
+      },
+      "audit": {
+        "log_verified": true,
+        "tampered": false
+      }
+    },
+    {
+      "sub_game_number": 6,
+      "roles": {
+        "SMNGRP05": "thief",
+        "vibecode": "police"
+      },
+      "started_at": "2026-08-19T20:46:16.169672+00:00",
+      "ended_at": "2026-08-19T20:47:27.509672+00:00",
+      "result": "survival",
+      "winner_group": "SMNGRP05",
+      "tie": false,
+      "github_commit": {
+        "SMNGRP05": "619369eabbba2a79f089487c88b4d7dac6ae19f0",
+        "vibecode": "declared-in-their-own-report"
+      },
+      "tokens": {
+        "SMNGRP05": 0,
+        "vibecode": 0
+      },
+      "score": {
+        "SMNGRP05": 10,
+        "vibecode": 5
+      },
+      "log_files": {
+        "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-vibecode_g06.json",
+        "vibecode": "vibecode/log_SMNGRP05-vs-vibecode_g06.json"
+      },
+      "audit": {
+        "log_verified": true,
+        "tampered": false
+      }
+    }
+  ],
+  "final_result": {
+    "total_score": {
+      "SMNGRP05": 47,
+      "vibecode": 47
+    },
+    "sub_games_won": {
+      "SMNGRP05": 3,
+      "vibecode": 3
+    },
+    "ties": 0,
+    "winner_group": null,
+    "series_tie": true,
+    "tokens_total_series": {
+      "SMNGRP05": 0,
+      "vibecode": 0
+    },
+    "games_played_including_this": {
+      "SMNGRP05": 2,
+      "vibecode": 7
+    },
+    "first_meeting_between_groups": true,
+    "diversity_reward_applied": {
+      "SMNGRP05": false,
+      "vibecode": false
+    }
+  },
+  "mutual_agreement": {
+    "sha256": "2cdcc41c2daf2c5b7701cc980e3123019dc30037b526c32c02797f7d5b1b6db5",
+    "confirmed": true,
+    "series_consensus_sha": "f3eef1eebbb03cd1060fda63b9e8ac88af1295c947c36a4240253a094c051917"
+  }
+}

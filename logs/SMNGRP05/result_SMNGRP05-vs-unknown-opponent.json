@@ -1,0 +1,236 @@
+{
+  "_schema": "Final result for the WHOLE match (all sub-games) between two teams. It condenses the per-sub-game logs into a per-group score for each sub-game plus the aggregate the lecturer needs to build the league standings. Static team metadata is not repeated here — it lives in the declaration and is referenced by game_id and group_id. Both teams must agree on this result and each sends its own copy (book ch.9).",
+  "schema_version": "1.1",
+  "report_type": "final_game_result",
+  "game_id": "SMNGRP05-vs-unknown-opponent",
+  "game_uid": "0",
+  "links": {
+    "_remark": "Logical roles, NOT fixed filenames. Every actual filename is derived from the game_id so files from different matches can never be confused. Match-level files (declaration, result) are named <role>_<game_id>.json; per-sub-game files (config, log) are named <role>_<game_id>_g<NN>.json where <NN> is the sub_game_number.",
+    "declaration": "declaration_SMNGRP05-vs-unknown-opponent.json",
+    "config": "config_SMNGRP05-vs-unknown-opponent_g<NN>.json",
+    "log": "log_SMNGRP05-vs-unknown-opponent_g<NN>.json",
+    "result": "result_SMNGRP05-vs-unknown-opponent.json"
+  },
+  "timezone": "Asia/Jerusalem",
+  "groups": [
+    "SMNGRP05",
+    "unknown-opponent"
+  ],
+  "num_sub_games": 6,
+  "sub_games": [
+    {
+      "sub_game_number": 1,
+      "roles": {
+        "SMNGRP05": "police",
+        "unknown-opponent": "thief"
+      },
+      "started_at": "2026-08-18T12:48:30.860840+00:00",
+      "ended_at": "2026-08-18T12:49:33.760840+00:00",
+      "result": "timeout",
+      "winner_group": null,
+      "tie": true,
+      "github_commit": {
+        "SMNGRP05": "b403bf954c292ef3ce6dd8f33eb4616dd1b2de70-dirty",
+        "unknown-opponent": "declared-in-their-own-report"
+      },
+      "tokens": {
+        "SMNGRP05": 0,
+        "unknown-opponent": null
+      },
+      "score": {
+        "SMNGRP05": 0,
+        "unknown-opponent": 0
+      },
+      "log_files": {
+        "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-unknown-opponent_g01.json",
+        "unknown-opponent": "unknown-opponent/log_SMNGRP05-vs-unknown-opponent_g01.json"
+      },
+      "audit": {
+        "log_verified": false,
+        "tampered": true
+      }
+    },
+    {
+      "sub_game_number": 2,
+      "roles": {
+        "SMNGRP05": "thief",
+        "unknown-opponent": "police"
+      },
+      "started_at": "2026-08-18T12:49:33.806933+00:00",
+      "ended_at": "2026-08-18T12:50:36.566933+00:00",
+      "result": "timeout",
+      "winner_group": null,
+      "tie": true,
+      "github_commit": {
+        "SMNGRP05": "b403bf954c292ef3ce6dd8f33eb4616dd1b2de70-dirty",
+        "unknown-opponent": "declared-in-their-own-report"
+      },
+      "tokens": {
+        "SMNGRP05": 0,
+        "unknown-opponent": null
+      },
+      "score": {
+        "SMNGRP05": 0,
+        "unknown-opponent": 0
+      },
+      "log_files": {
+        "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-unknown-opponent_g02.json",
+        "unknown-opponent": "unknown-opponent/log_SMNGRP05-vs-unknown-opponent_g02.json"
+      },
+      "audit": {
+        "log_verified": false,
+        "tampered": true
+      }
+    },
+    {
+      "sub_game_number": 3,
+      "roles": {
+        "SMNGRP05": "police",
+        "unknown-opponent": "thief"
+      },
+      "started_at": "2026-08-18T12:50:36.619021+00:00",
+      "ended_at": "2026-08-18T12:51:39.409021+00:00",
+      "result": "timeout",
+      "winner_group": null,
+      "tie": true,
+      "github_commit": {
+        "SMNGRP05": "b403bf954c292ef3ce6dd8f33eb4616dd1b2de70-dirty",
+        "unknown-opponent": "declared-in-their-own-report"
+      },
+      "tokens": {
+        "SMNGRP05": 0,
+        "unknown-opponent": null
+      },
+      "score": {
+        "SMNGRP05": 0,
+        "unknown-opponent": 0
+      },
+      "log_files": {
+        "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-unknown-opponent_g03.json",
+        "unknown-opponent": "unknown-opponent/log_SMNGRP05-vs-unknown-opponent_g03.json"
+      },
+      "audit": {
+        "log_verified": false,
+        "tampered": true
+      }
+    },
+    {
+      "sub_game_number": 4,
+      "roles": {
+        "SMNGRP05": "thief",
+        "unknown-opponent": "police"
+      },
+      "started_at": "2026-08-18T12:51:39.462592+00:00",
+      "ended_at": "2026-08-18T12:52:42.182592+00:00",
+      "result": "timeout",
+      "winner_group": null,
+      "tie": true,
+      "github_commit": {
+        "SMNGRP05": "b403bf954c292ef3ce6dd8f33eb4616dd1b2de70-dirty",
+        "unknown-opponent": "declared-in-their-own-report"
+      },
+      "tokens": {
+        "SMNGRP05": 0,
+        "unknown-opponent": null
+      },
+      "score": {
+        "SMNGRP05": 0,
+        "unknown-opponent": 0
+      },
+      "log_files": {
+        "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-unknown-opponent_g04.json",
+        "unknown-opponent": "unknown-opponent/log_SMNGRP05-vs-unknown-opponent_g04.json"
+      },
+      "audit": {
+        "log_verified": false,
+        "tampered": true
+      }
+    },
+    {
+      "sub_game_number": 5,
+      "roles": {
+        "SMNGRP05": "police",
+        "unknown-opponent": "thief"
+      },
+      "started_at": "2026-08-18T12:52:42.231997+00:00",
+      "ended_at": "2026-08-18T12:53:44.971997+00:00",
+      "result": "timeout",
+      "winner_group": null,
+      "tie": true,
+      "github_commit": {
+        "SMNGRP05": "b403bf954c292ef3ce6dd8f33eb4616dd1b2de70-dirty",
+        "unknown-opponent": "declared-in-their-own-report"
+      },
+      "tokens": {
+        "SMNGRP05": 0,
+        "unknown-opponent": null
+      },
+      "score": {
+        "SMNGRP05": 0,
+        "unknown-opponent": 0
+      },
+      "log_files": {
+        "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-unknown-opponent_g05.json",
+        "unknown-opponent": "unknown-opponent/log_SMNGRP05-vs-unknown-opponent_g05.json"
+      },
+      "audit": {
+        "log_verified": false,
+        "tampered": true
+      }
+    },
+    {
+      "sub_game_number": 6,
+      "roles": {
+        "SMNGRP05": "thief",
+        "unknown-opponent": "police"
+      },
+      "started_at": "2026-08-18T12:53:45.020405+00:00",
+      "ended_at": "2026-08-18T12:54:47.840405+00:00",
+      "result": "timeout",
+      "winner_group": null,
+      "tie": true,
+      "github_commit": {
+        "SMNGRP05": "b403bf954c292ef3ce6dd8f33eb4616dd1b2de70-dirty",
+        "unknown-opponent": "declared-in-their-own-report"
+      },
+      "tokens": {
+        "SMNGRP05": 0,
+        "unknown-opponent": null
+      },
+      "score": {
+        "SMNGRP05": 0,
+        "unknown-opponent": 0
+      },
+      "log_files": {
+        "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-unknown-opponent_g06.json",
+        "unknown-opponent": "unknown-opponent/log_SMNGRP05-vs-unknown-opponent_g06.json"
+      },
+      "audit": {
+        "log_verified": false,
+        "tampered": true
+      }
+    }
+  ],
+  "final_result": {
+    "total_score": {
+      "SMNGRP05": 2,
+      "unknown-opponent": 2
+    },
+    "sub_games_won": {
+      "SMNGRP05": 0,
+      "unknown-opponent": 0
+    },
+    "ties": 6,
+    "winner_group": null,
+    "series_tie": true,
+    "tokens_total_series": {
+      "SMNGRP05": 0,
+      "unknown-opponent": 0
+    }
+  },
+  "mutual_agreement": {
+    "sha256": "2bb4043041ce037f6404db55d35bb8c42b9442bd3b3091fc375f8a7070b1659e",
+    "confirmed": false,
+    "series_consensus_sha": "c748cbcabbd95569c8eb1320b906f35f9c51a9ce66fb2e1d678fe9b18acbfb47"
+  }
+}

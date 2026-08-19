@@ -1,0 +1,101 @@
+{
+  "_schema": "Per-sub-game match log, consumed by the Replay Viewer for cryptographic audit. Each step is committed as SHA-256(state || move || intent || nonce) and revealed only at the final audit (book ch.5 commit-reveal, ch.7 replay). Static team metadata is not repeated here — it lives in the declaration and is joined by game_uid. Step 0 is the signed step-zero record carrying the hardware declaration and the exact commit hash that played. The prompt_discussion block records the natural-language exchange and the reasoning behind each hint, and is covered by the same hash as everything else.",
+  "schema_version": "1.1",
+  "game_id": "SMNGRP05-vs-unknown-opponent",
+  "game_uid": "0",
+  "links": {
+    "_remark": "Logical roles, NOT fixed filenames. Every actual filename is derived from the game_id so files from different matches can never be confused. Match-level files (declaration, result) are named <role>_<game_id>.json; per-sub-game files (config, log) are named <role>_<game_id>_g<NN>.json where <NN> is the sub_game_number.",
+    "declaration": "declaration_SMNGRP05-vs-unknown-opponent.json",
+    "config": "config_SMNGRP05-vs-unknown-opponent_g<NN>.json",
+    "log": "log_SMNGRP05-vs-unknown-opponent_g<NN>.json",
+    "result": "result_SMNGRP05-vs-unknown-opponent.json"
+  },
+  "summary": {
+    "sub_game_number": 6,
+    "group_id": "SMNGRP05",
+    "role": "thief",
+    "opponent_group_id": "unknown-opponent",
+    "result": "timeout",
+    "winner_role": "-",
+    "steps": 0,
+    "timezone": "Asia/Jerusalem",
+    "started_at": "2026-08-18T12:53:45.020405+00:00",
+    "ended_at": "2026-08-18T12:54:47.840405+00:00",
+    "duration_seconds": 62.82,
+    "tokens_total": 0,
+    "barriers_used": 0,
+    "phase_trail": [
+      "WAITING_FOR_OPPONENT",
+      "TECHNICAL_LOSS"
+    ],
+    "opponent_profile": {
+      "trust": 0.5,
+      "estimated_lie_rate": 0.5,
+      "hints_seen": 0,
+      "hints_scored": 0,
+      "alpha": 1.0,
+      "beta": 1.0
+    },
+    "talker": {
+      "provider": "template",
+      "tokens": 0,
+      "self_credibility": 0.5,
+      "target_lie_rate": 0.45,
+      "hints_sent": 0,
+      "hints_falsifiable": 0
+    },
+    "audit": {}
+  },
+  "records": [
+    {
+      "payload": {
+        "step": 0,
+        "type": "system_spec",
+        "spec": {
+          "os": "Windows 11",
+          "python": "3.14.5",
+          "machine": "AMD64",
+          "cpu_type": "AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD",
+          "cpu_cores": 12,
+          "cpu_freq_mhz": null,
+          "ram_gb": null,
+          "gpu_type": "NVIDIA GeForce RTX 3070",
+          "vram_gb": 8.0
+        },
+        "model": "template-zero-token",
+        "provider": "template",
+        "code_version": "1.00",
+        "github_commit": "b403bf954c292ef3ce6dd8f33eb4616dd1b2de70-dirty",
+        "git": {
+          "commit": "b403bf954c292ef3ce6dd8f33eb4616dd1b2de70-dirty",
+          "branch": "main",
+          "tag": "v1.0-submission-25-gb403bf9"
+        },
+        "group_id": "SMNGRP05",
+        "group_name": "SMNGRP05",
+        "sub_game_number": 6,
+        "scent_model": {
+          "falloff": "linear",
+          "grid_size": 5,
+          "peak_intensity": 0.9,
+          "decay_per_step": 0.1,
+          "decay_mode": "subtractive",
+          "decay_formula": "tau(t+1) = max(0, tau(t) - rho) + delta_tau",
+          "worked_example": {
+            "deposit": 0.9,
+            "after_1_turn": 0.8,
+            "after_7_turns": 0.2
+          }
+        },
+        "declared_at": "2026-08-18T12:53:45.020341+00:00"
+      },
+      "nonce": "5a030c2b0a6ce43e32472c5355be0144",
+      "commit": "1780b0cd56b9b41811ebd043297537029a293f3074897e2381e6026692bafed4"
+    }
+  ],
+  "mutual_agreement": {
+    "opponent_group_id": "unknown-opponent",
+    "sha256": "3596b3e3379195a5234d2f5d0dad4fd5d302708cff62ae60730656c35468e193",
+    "confirmed": false
+  }
+}

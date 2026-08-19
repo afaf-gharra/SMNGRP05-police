@@ -1,0 +1,235 @@
+{
+  "_schema": "Final result for the WHOLE match (all sub-games) between two teams. It condenses the per-sub-game logs into a per-group score for each sub-game plus the aggregate the lecturer needs to build the league standings. Static team metadata is not repeated here — it lives in the declaration and is referenced by game_id and group_id. Both teams must agree on this result and each sends its own copy (book ch.9).",
+  "schema_version": "1.1",
+  "report_type": "final_game_result",
+  "game_id": "SMNGRP05-vs-segal-thief-team",
+  "game_uid": "ccc6d37c-b64a-a7d3-071b-3776129986cc",
+  "links": {
+    "_remark": "Logical roles, NOT fixed filenames. Every actual filename is derived from the game_id so files from different matches can never be confused. Match-level files (declaration, result) are named <role>_<game_id>.json; per-sub-game files (config, log) are named <role>_<game_id>_g<NN>.json where <NN> is the sub_game_number.",
+    "declaration": "declaration_SMNGRP05-vs-segal-thief-team.json",
+    "config": "config_SMNGRP05-vs-segal-thief-team_g<NN>.json",
+    "log": "log_SMNGRP05-vs-segal-thief-team_g<NN>.json",
+    "result": "result_SMNGRP05-vs-segal-thief-team.json"
+  },
+  "timezone": "Asia/Jerusalem",
+  "groups": [
+    "SMNGRP05",
+    "segal-thief-team"
+  ],
+  "num_sub_games": 6,
+  "sub_games": [
+    {
+      "sub_game_number": 1,
+      "roles": {
+        "SMNGRP05": "police",
+        "segal-thief-team": "thief"
+      },
+      "started_at": "2026-08-17T10:41:59.726731+00:00",
+      "ended_at": "2026-08-17T10:42:00.846731+00:00",
+      "result": "capture",
+      "winner_group": "SMNGRP05",
+      "tie": false,
+      "github_commit": {
+        "SMNGRP05": "33922a7c879d8ec5155d4102949af312aca40f6b-dirty",
+        "segal-thief-team": "declared-in-their-own-report"
+      },
+      "tokens": {
+        "SMNGRP05": 0,
+        "segal-thief-team": null
+      },
+      "score": {
+        "SMNGRP05": 20,
+        "segal-thief-team": 5
+      },
+      "log_files": {
+        "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-segal-thief-team_g01.json",
+        "segal-thief-team": "segal-thief-team/log_SMNGRP05-vs-segal-thief-team_g01.json"
+      },
+      "audit": {
+        "log_verified": true,
+        "tampered": false
+      }
+    },
+    {
+      "sub_game_number": 2,
+      "roles": {
+        "SMNGRP05": "thief",
+        "segal-thief-team": "police"
+      },
+      "started_at": "2026-08-17T10:42:01.174112+00:00",
+      "ended_at": "2026-08-17T10:42:04.434112+00:00",
+      "result": "survival",
+      "winner_group": "SMNGRP05",
+      "tie": false,
+      "github_commit": {
+        "SMNGRP05": "33922a7c879d8ec5155d4102949af312aca40f6b-dirty",
+        "segal-thief-team": "declared-in-their-own-report"
+      },
+      "tokens": {
+        "SMNGRP05": 0,
+        "segal-thief-team": null
+      },
+      "score": {
+        "SMNGRP05": 10,
+        "segal-thief-team": 5
+      },
+      "log_files": {
+        "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-segal-thief-team_g02.json",
+        "segal-thief-team": "segal-thief-team/log_SMNGRP05-vs-segal-thief-team_g02.json"
+      },
+      "audit": {
+        "log_verified": true,
+        "tampered": false
+      }
+    },
+    {
+      "sub_game_number": 3,
+      "roles": {
+        "SMNGRP05": "police",
+        "segal-thief-team": "thief"
+      },
+      "started_at": "2026-08-17T10:42:04.561076+00:00",
+      "ended_at": "2026-08-17T10:42:05.621076+00:00",
+      "result": "capture",
+      "winner_group": "SMNGRP05",
+      "tie": false,
+      "github_commit": {
+        "SMNGRP05": "33922a7c879d8ec5155d4102949af312aca40f6b-dirty",
+        "segal-thief-team": "declared-in-their-own-report"
+      },
+      "tokens": {
+        "SMNGRP05": 0,
+        "segal-thief-team": null
+      },
+      "score": {
+        "SMNGRP05": 20,
+        "segal-thief-team": 5
+      },
+      "log_files": {
+        "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-segal-thief-team_g03.json",
+        "segal-thief-team": "segal-thief-team/log_SMNGRP05-vs-segal-thief-team_g03.json"
+      },
+      "audit": {
+        "log_verified": true,
+        "tampered": false
+      }
+    },
+    {
+      "sub_game_number": 4,
+      "roles": {
+        "SMNGRP05": "thief",
+        "segal-thief-team": "police"
+      },
+      "started_at": "2026-08-17T10:42:05.756005+00:00",
+      "ended_at": "2026-08-17T10:42:09.006005+00:00",
+      "result": "survival",
+      "winner_group": "SMNGRP05",
+      "tie": false,
+      "github_commit": {
+        "SMNGRP05": "33922a7c879d8ec5155d4102949af312aca40f6b-dirty",
+        "segal-thief-team": "declared-in-their-own-report"
+      },
+      "tokens": {
+        "SMNGRP05": 0,
+        "segal-thief-team": null
+      },
+      "score": {
+        "SMNGRP05": 10,
+        "segal-thief-team": 5
+      },
+      "log_files": {
+        "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-segal-thief-team_g04.json",
+        "segal-thief-team": "segal-thief-team/log_SMNGRP05-vs-segal-thief-team_g04.json"
+      },
+      "audit": {
+        "log_verified": true,
+        "tampered": false
+      }
+    },
+    {
+      "sub_game_number": 5,
+      "roles": {
+        "SMNGRP05": "police",
+        "segal-thief-team": "thief"
+      },
+      "started_at": "2026-08-17T10:42:09.145876+00:00",
+      "ended_at": "2026-08-17T10:42:10.235876+00:00",
+      "result": "capture",
+      "winner_group": "SMNGRP05",
+      "tie": false,
+      "github_commit": {
+        "SMNGRP05": "33922a7c879d8ec5155d4102949af312aca40f6b-dirty",
+        "segal-thief-team": "declared-in-their-own-report"
+      },
+      "tokens": {
+        "SMNGRP05": 0,
+        "segal-thief-team": null
+      },
+      "score": {
+        "SMNGRP05": 20,
+        "segal-thief-team": 5
+      },
+      "log_files": {
+        "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-segal-thief-team_g05.json",
+        "segal-thief-team": "segal-thief-team/log_SMNGRP05-vs-segal-thief-team_g05.json"
+      },
+      "audit": {
+        "log_verified": true,
+        "tampered": false
+      }
+    },
+    {
+      "sub_game_number": 6,
+      "roles": {
+        "SMNGRP05": "thief",
+        "segal-thief-team": "police"
+      },
+      "started_at": "2026-08-17T10:42:10.369707+00:00",
+      "ended_at": "2026-08-17T10:42:13.659707+00:00",
+      "result": "survival",
+      "winner_group": "SMNGRP05",
+      "tie": false,
+      "github_commit": {
+        "SMNGRP05": "33922a7c879d8ec5155d4102949af312aca40f6b-dirty",
+        "segal-thief-team": "declared-in-their-own-report"
+      },
+      "tokens": {
+        "SMNGRP05": 0,
+        "segal-thief-team": null
+      },
+      "score": {
+        "SMNGRP05": 10,
+        "segal-thief-team": 5
+      },
+      "log_files": {
+        "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-segal-thief-team_g06.json",
+        "segal-thief-team": "segal-thief-team/log_SMNGRP05-vs-segal-thief-team_g06.json"
+      },
+      "audit": {
+        "log_verified": true,
+        "tampered": false
+      }
+    }
+  ],
+  "final_result": {
+    "total_score": {
+      "SMNGRP05": 90,
+      "segal-thief-team": 30
+    },
+    "sub_games_won": {
+      "SMNGRP05": 6,
+      "segal-thief-team": 0
+    },
+    "ties": 0,
+    "winner_group": "SMNGRP05",
+    "series_tie": false,
+    "tokens_total_series": {
+      "SMNGRP05": 0,
+      "segal-thief-team": 0
+    }
+  },
+  "mutual_agreement": {
+    "sha256": "fff5e33896e195c2b4b5388d51393a14e5e5016b3f2b676f990d7677fc7d7d6d",
+    "confirmed": true
+  }
+}

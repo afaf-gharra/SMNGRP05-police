@@ -1,0 +1,74 @@
+{
+  "_schema": "Pre-game declaration covering the WHOLE match (every sub-game) between two teams. This is the single home for everything that does not change while the sub-games are played: team identity, members, the cop and thief repository URLs, MCP server URLs, hardware specification, language model, the agreed token ceiling, and the match start and end times. Roles alternate across sub-games, so no role and no sub_game_number appear here. Both teams sign this and lock it cryptographically before play begins (book ch.5, step zero). Anything that varies per sub-game — the commit hash, the moves, the scores — lives in the log and result artifacts instead.",
+  "schema_version": "1.1",
+  "declaration_type": "pre_game_declaration",
+  "game_id": "SMNGRP05-vs-yamanagh",
+  "game_uid": "34fd3a87-dae4-1b73-4df7-130c2ff0e416",
+  "links": {
+    "_remark": "Logical roles, NOT fixed filenames. Every actual filename is derived from the game_id so files from different matches can never be confused. Match-level files (declaration, result) are named <role>_<game_id>.json; per-sub-game files (config, log) are named <role>_<game_id>_g<NN>.json where <NN> is the sub_game_number.",
+    "declaration": "declaration_SMNGRP05-vs-yamanagh.json",
+    "config": "config_SMNGRP05-vs-yamanagh_g<NN>.json",
+    "log": "log_SMNGRP05-vs-yamanagh_g<NN>.json",
+    "result": "result_SMNGRP05-vs-yamanagh.json"
+  },
+  "timezone": "Asia/Jerusalem",
+  "game_started_at": "2026-08-21T14:16:39.680935+00:00",
+  "game_ended_at": "2026-08-21T14:20:24.203270+00:00",
+  "num_sub_games": 6,
+  "max_tokens_per_game": 200000,
+  "groups": {
+    "group_1": {
+      "group_id": "SMNGRP05",
+      "group_name": "SMNGRP05",
+      "members": [
+        "Afaf Gharra",
+        "Reem Awawdy"
+      ],
+      "repos": {
+        "cop": "https://github.com/afaf-gharra/SMNGRP05-police",
+        "thief": "https://github.com/afaf-gharra/SMNGRP05-thief"
+      },
+      "mcp_servers": {
+        "cop": "https://53ed-147-236-163-154.ngrok-free.app/mcp",
+        "thief": "https://53ed-147-236-163-154.ngrok-free.app/mcp"
+      },
+      "llm_model": "template-zero-token",
+      "hardware_spec": {
+        "cpu_type": "AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD",
+        "cpu_freq_mhz": null,
+        "cpu_cores": 12,
+        "ram_gb": null,
+        "gpu_model": "NVIDIA GeForce RTX 3070",
+        "vram_gb": 8.0
+      },
+      "signature": "6f2ba345e1fc187e9dd80675b743178030473c09f25506b395c651a4de73e489"
+    },
+    "group_2": {
+      "group_id": "yamanagh",
+      "group_name": "yamanagh",
+      "members": [
+        "Nagham Manasra",
+        "Yaman Dahle"
+      ],
+      "repos": {
+        "thief": "https://github.com/yamandahle/thief-peer",
+        "cop": "https://github.com/Nagham1023/yamanagh-cop"
+      },
+      "mcp_servers": {
+        "thief": "https://splotchy-bronco-nature.ngrok-free.dev/mcp",
+        "cop": "https://splotchy-bronco-nature.ngrok-free.dev/mcp"
+      },
+      "llm_model": "template",
+      "hardware_spec": {
+        "cpu_type": null,
+        "cpu_freq_mhz": null,
+        "cpu_cores": 12,
+        "ram_gb": 15.6,
+        "gpu_model": null,
+        "vram_gb": null
+      },
+      "signature": "640942476c895b41c729134484c1a1a623856e33a2bbdcc72415adf6f5b8eb8a"
+    }
+  },
+  "declaration_sha256": "c37259d44383142c0cf9d148c6ba8efe5045b47ef27407b0bf1ffd0ac6fc1d86"
+}

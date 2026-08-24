@@ -1,0 +1,269 @@
+{
+  "_schema": "Final result for the WHOLE match (all sub-games) between two teams. It condenses the per-sub-game logs into a per-group score for each sub-game plus the aggregate the lecturer needs to build the league standings. Static team metadata is not repeated here — it lives in the declaration and is referenced by game_id and group_id. Both teams must agree on this result and each sends its own copy (book ch.9).",
+  "schema_version": "1.1",
+  "report_type": "final_game_result",
+  "game_id": "SMNGRP05-vs-anrbj666",
+  "game_uid": "fdeee45d-6d82-b4c8-3491-0fa35930a348",
+  "links": {
+    "_remark": "Logical roles, NOT fixed filenames. Every actual filename is derived from the game_id so files from different matches can never be confused. Match-level files (declaration, result) are named <role>_<game_id>.json; per-sub-game files (config, log) are named <role>_<game_id>_g<NN>.json where <NN> is the sub_game_number.",
+    "declaration": "declaration_SMNGRP05-vs-anrbj666.json",
+    "config": "config_SMNGRP05-vs-anrbj666_g<NN>.json",
+    "log": "log_SMNGRP05-vs-anrbj666_g<NN>.json",
+    "result": "result_SMNGRP05-vs-anrbj666.json"
+  },
+  "timezone": "Asia/Jerusalem",
+  "groups": [
+    "SMNGRP05",
+    "anrbj666"
+  ],
+  "num_sub_games": 6,
+  "sub_games": [
+    {
+      "sub_game_number": 1,
+      "roles": {
+        "SMNGRP05": "police",
+        "anrbj666": "thief"
+      },
+      "started_at": "2026-08-24T09:57:15.360891+00:00",
+      "ended_at": "2026-08-24T09:57:31.930891+00:00",
+      "result": "survival",
+      "winner_group": "anrbj666",
+      "tie": false,
+      "github_commit": {
+        "SMNGRP05": "a9da1fe01218370f25a5543be6fdcf327e8583cc-dirty",
+        "anrbj666": "1e69abe05930a504c8bc345b2a6fcd0902085761"
+      },
+      "tokens": {
+        "SMNGRP05": 0,
+        "anrbj666": 0
+      },
+      "score": {
+        "SMNGRP05": 5,
+        "anrbj666": 10
+      },
+      "log_files": {
+        "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-anrbj666_g01.json",
+        "anrbj666": "anrbj666/log_SMNGRP05-vs-anrbj666_g01.json"
+      },
+      "audit": {
+        "log_verified": true,
+        "tampered": false,
+        "opponent_present": true,
+        "results_agree": true,
+        "opponent_result_claim": "survival",
+        "tampering_detected": false
+      }
+    },
+    {
+      "sub_game_number": 2,
+      "roles": {
+        "SMNGRP05": "thief",
+        "anrbj666": "police"
+      },
+      "started_at": "2026-08-24T10:00:22.773298+00:00",
+      "ended_at": "2026-08-24T10:00:43.133298+00:00",
+      "result": "survival",
+      "winner_group": "SMNGRP05",
+      "tie": false,
+      "github_commit": {
+        "SMNGRP05": "a9da1fe01218370f25a5543be6fdcf327e8583cc-dirty",
+        "anrbj666": "29ff31993c725611f8c8b5d9d090b5738795a12e"
+      },
+      "tokens": {
+        "SMNGRP05": 0,
+        "anrbj666": 0
+      },
+      "score": {
+        "SMNGRP05": 10,
+        "anrbj666": 5
+      },
+      "log_files": {
+        "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-anrbj666_g02.json",
+        "anrbj666": "anrbj666/log_SMNGRP05-vs-anrbj666_g02.json"
+      },
+      "audit": {
+        "log_verified": true,
+        "tampered": false,
+        "opponent_present": true,
+        "results_agree": true,
+        "opponent_result_claim": "survival",
+        "tampering_detected": false
+      }
+    },
+    {
+      "sub_game_number": 3,
+      "roles": {
+        "SMNGRP05": "police",
+        "anrbj666": "thief"
+      },
+      "started_at": "2026-08-24T10:00:47.398913+00:00",
+      "ended_at": "2026-08-24T10:01:04.718913+00:00",
+      "result": "survival",
+      "winner_group": "anrbj666",
+      "tie": false,
+      "github_commit": {
+        "SMNGRP05": "a9da1fe01218370f25a5543be6fdcf327e8583cc-dirty",
+        "anrbj666": "1e69abe05930a504c8bc345b2a6fcd0902085761"
+      },
+      "tokens": {
+        "SMNGRP05": 0,
+        "anrbj666": 0
+      },
+      "score": {
+        "SMNGRP05": 5,
+        "anrbj666": 10
+      },
+      "log_files": {
+        "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-anrbj666_g03.json",
+        "anrbj666": "anrbj666/log_SMNGRP05-vs-anrbj666_g03.json"
+      },
+      "audit": {
+        "log_verified": true,
+        "tampered": false,
+        "opponent_present": true,
+        "results_agree": true,
+        "opponent_result_claim": "survival",
+        "tampering_detected": false
+      }
+    },
+    {
+      "sub_game_number": 4,
+      "roles": {
+        "SMNGRP05": "thief",
+        "anrbj666": "police"
+      },
+      "started_at": "2026-08-24T10:01:08.950776+00:00",
+      "ended_at": "2026-08-24T10:01:28.460776+00:00",
+      "result": "survival",
+      "winner_group": "SMNGRP05",
+      "tie": false,
+      "github_commit": {
+        "SMNGRP05": "a9da1fe01218370f25a5543be6fdcf327e8583cc-dirty",
+        "anrbj666": "29ff31993c725611f8c8b5d9d090b5738795a12e"
+      },
+      "tokens": {
+        "SMNGRP05": 0,
+        "anrbj666": 0
+      },
+      "score": {
+        "SMNGRP05": 10,
+        "anrbj666": 5
+      },
+      "log_files": {
+        "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-anrbj666_g04.json",
+        "anrbj666": "anrbj666/log_SMNGRP05-vs-anrbj666_g04.json"
+      },
+      "audit": {
+        "log_verified": true,
+        "tampered": false,
+        "opponent_present": true,
+        "results_agree": true,
+        "opponent_result_claim": "survival",
+        "tampering_detected": false
+      }
+    },
+    {
+      "sub_game_number": 5,
+      "roles": {
+        "SMNGRP05": "police",
+        "anrbj666": "thief"
+      },
+      "started_at": "2026-08-24T10:01:32.853342+00:00",
+      "ended_at": "2026-08-24T10:01:49.043342+00:00",
+      "result": "survival",
+      "winner_group": "anrbj666",
+      "tie": false,
+      "github_commit": {
+        "SMNGRP05": "a9da1fe01218370f25a5543be6fdcf327e8583cc-dirty",
+        "anrbj666": "1e69abe05930a504c8bc345b2a6fcd0902085761"
+      },
+      "tokens": {
+        "SMNGRP05": 0,
+        "anrbj666": 0
+      },
+      "score": {
+        "SMNGRP05": 5,
+        "anrbj666": 10
+      },
+      "log_files": {
+        "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-anrbj666_g05.json",
+        "anrbj666": "anrbj666/log_SMNGRP05-vs-anrbj666_g05.json"
+      },
+      "audit": {
+        "log_verified": true,
+        "tampered": false,
+        "opponent_present": true,
+        "results_agree": true,
+        "opponent_result_claim": "survival",
+        "tampering_detected": false
+      }
+    },
+    {
+      "sub_game_number": 6,
+      "roles": {
+        "SMNGRP05": "thief",
+        "anrbj666": "police"
+      },
+      "started_at": "2026-08-24T10:01:54.522242+00:00",
+      "ended_at": "2026-08-24T10:02:13.472242+00:00",
+      "result": "survival",
+      "winner_group": "SMNGRP05",
+      "tie": false,
+      "github_commit": {
+        "SMNGRP05": "a9da1fe01218370f25a5543be6fdcf327e8583cc-dirty",
+        "anrbj666": "29ff31993c725611f8c8b5d9d090b5738795a12e"
+      },
+      "tokens": {
+        "SMNGRP05": 0,
+        "anrbj666": 0
+      },
+      "score": {
+        "SMNGRP05": 10,
+        "anrbj666": 5
+      },
+      "log_files": {
+        "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-anrbj666_g06.json",
+        "anrbj666": "anrbj666/log_SMNGRP05-vs-anrbj666_g06.json"
+      },
+      "audit": {
+        "log_verified": true,
+        "tampered": false,
+        "opponent_present": true,
+        "results_agree": true,
+        "opponent_result_claim": "survival",
+        "tampering_detected": false
+      }
+    }
+  ],
+  "final_result": {
+    "total_score": {
+      "SMNGRP05": 47,
+      "anrbj666": 47
+    },
+    "sub_games_won": {
+      "SMNGRP05": 3,
+      "anrbj666": 3
+    },
+    "ties": 0,
+    "winner_group": null,
+    "series_tie": true,
+    "tokens_total_series": {
+      "SMNGRP05": 0,
+      "anrbj666": 0
+    },
+    "games_played_including_this": {
+      "SMNGRP05": 6,
+      "anrbj666": 5
+    },
+    "first_meeting_between_groups": true,
+    "diversity_reward_applied": {
+      "SMNGRP05": false,
+      "anrbj666": false
+    }
+  },
+  "mutual_agreement": {
+    "sha256": "9f04eee2bec3a1c1887b50dc9b907849828e985ecafe4843d8864609fccb8503",
+    "confirmed": true,
+    "series_consensus_sha": "0fb5ae063322fbfa84fde4d73bea7a7f9396c7b3af8f4239362f392bdddf2994"
+  }
+}

@@ -24,14 +24,14 @@
         "SMNGRP05": "police",
         "imreeyal": "thief"
       },
-      "started_at": "2026-08-19T22:24:03.839535+00:00",
-      "ended_at": "2026-08-19T22:25:50.569535+00:00",
+      "started_at": "2026-08-24T10:56:43.500322+00:00",
+      "ended_at": "2026-08-24T10:58:30.860322+00:00",
       "result": "survival",
       "winner_group": "imreeyal",
       "tie": false,
       "github_commit": {
-        "SMNGRP05": "296e6e6481c2aac92aaa5290413c754d386d8575",
-        "imreeyal": "bdd451a66af252e9031b19dfd142afbd3df2be31"
+        "SMNGRP05": "41291d3052587805b6e88a9c8e6f5d7da9de6d45-dirty",
+        "imreeyal": "68debed8826488a24b446a9d06dc0cb3fa18efcf"
       },
       "tokens": {
         "SMNGRP05": 0,
@@ -60,22 +60,22 @@
         "SMNGRP05": "thief",
         "imreeyal": "police"
       },
-      "started_at": "2026-08-19T22:26:53.392640+00:00",
-      "ended_at": "2026-08-19T22:28:15.582640+00:00",
-      "result": "capture",
-      "winner_group": "imreeyal",
+      "started_at": "2026-08-24T11:01:10.704494+00:00",
+      "ended_at": "2026-08-24T11:04:05.974494+00:00",
+      "result": "survival",
+      "winner_group": "SMNGRP05",
       "tie": false,
       "github_commit": {
-        "SMNGRP05": "296e6e6481c2aac92aaa5290413c754d386d8575",
-        "imreeyal": "bdd451a66af252e9031b19dfd142afbd3df2be31"
+        "SMNGRP05": "41291d3052587805b6e88a9c8e6f5d7da9de6d45-dirty",
+        "imreeyal": "68debed8826488a24b446a9d06dc0cb3fa18efcf"
       },
       "tokens": {
         "SMNGRP05": 0,
         "imreeyal": 0
       },
       "score": {
-        "SMNGRP05": 5,
-        "imreeyal": 20
+        "SMNGRP05": 10,
+        "imreeyal": 5
       },
       "log_files": {
         "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-imreeyal_g02.json",
@@ -86,7 +86,7 @@
         "tampered": false,
         "opponent_present": true,
         "results_agree": true,
-        "opponent_result_claim": "capture",
+        "opponent_result_claim": "survival",
         "tampering_detected": false
       }
     },
@@ -96,14 +96,14 @@
         "SMNGRP05": "police",
         "imreeyal": "thief"
       },
-      "started_at": "2026-08-19T22:28:19.999575+00:00",
-      "ended_at": "2026-08-19T22:31:08.039575+00:00",
+      "started_at": "2026-08-24T11:04:10.480242+00:00",
+      "ended_at": "2026-08-24T11:06:57.100242+00:00",
       "result": "survival",
       "winner_group": "imreeyal",
       "tie": false,
       "github_commit": {
-        "SMNGRP05": "296e6e6481c2aac92aaa5290413c754d386d8575",
-        "imreeyal": "bdd451a66af252e9031b19dfd142afbd3df2be31"
+        "SMNGRP05": "41291d3052587805b6e88a9c8e6f5d7da9de6d45-dirty",
+        "imreeyal": "68debed8826488a24b446a9d06dc0cb3fa18efcf"
       },
       "tokens": {
         "SMNGRP05": 0,
@@ -132,22 +132,22 @@
         "SMNGRP05": "thief",
         "imreeyal": "police"
       },
-      "started_at": "2026-08-19T22:31:12.200471+00:00",
-      "ended_at": "2026-08-19T22:32:34.040471+00:00",
-      "result": "capture",
-      "winner_group": "imreeyal",
+      "started_at": "2026-08-24T11:07:01.443345+00:00",
+      "ended_at": "2026-08-24T11:09:55.623345+00:00",
+      "result": "survival",
+      "winner_group": "SMNGRP05",
       "tie": false,
       "github_commit": {
-        "SMNGRP05": "296e6e6481c2aac92aaa5290413c754d386d8575",
-        "imreeyal": "bdd451a66af252e9031b19dfd142afbd3df2be31"
+        "SMNGRP05": "41291d3052587805b6e88a9c8e6f5d7da9de6d45-dirty",
+        "imreeyal": "68debed8826488a24b446a9d06dc0cb3fa18efcf"
       },
       "tokens": {
         "SMNGRP05": 0,
         "imreeyal": 0
       },
       "score": {
-        "SMNGRP05": 5,
-        "imreeyal": 20
+        "SMNGRP05": 10,
+        "imreeyal": 5
       },
       "log_files": {
         "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-imreeyal_g04.json",
@@ -158,7 +158,7 @@
         "tampered": false,
         "opponent_present": true,
         "results_agree": true,
-        "opponent_result_claim": "capture",
+        "opponent_result_claim": "survival",
         "tampering_detected": false
       }
     },
@@ -168,14 +168,14 @@
         "SMNGRP05": "police",
         "imreeyal": "thief"
       },
-      "started_at": "2026-08-19T22:32:38.388779+00:00",
-      "ended_at": "2026-08-19T22:35:25.898779+00:00",
+      "started_at": "2026-08-24T11:10:00.060695+00:00",
+      "ended_at": "2026-08-24T11:11:46.510695+00:00",
       "result": "survival",
       "winner_group": "imreeyal",
       "tie": false,
       "github_commit": {
-        "SMNGRP05": "296e6e6481c2aac92aaa5290413c754d386d8575",
-        "imreeyal": "bdd451a66af252e9031b19dfd142afbd3df2be31"
+        "SMNGRP05": "41291d3052587805b6e88a9c8e6f5d7da9de6d45-dirty",
+        "imreeyal": "68debed8826488a24b446a9d06dc0cb3fa18efcf"
       },
       "tokens": {
         "SMNGRP05": 0,
@@ -204,22 +204,22 @@
         "SMNGRP05": "thief",
         "imreeyal": "police"
       },
-      "started_at": "2026-08-19T22:35:30.219495+00:00",
-      "ended_at": "2026-08-19T22:36:58.419495+00:00",
-      "result": "capture",
-      "winner_group": "imreeyal",
+      "started_at": "2026-08-24T11:11:50.909663+00:00",
+      "ended_at": "2026-08-24T11:13:45.169663+00:00",
+      "result": "survival",
+      "winner_group": "SMNGRP05",
       "tie": false,
       "github_commit": {
-        "SMNGRP05": "296e6e6481c2aac92aaa5290413c754d386d8575",
-        "imreeyal": "bdd451a66af252e9031b19dfd142afbd3df2be31"
+        "SMNGRP05": "41291d3052587805b6e88a9c8e6f5d7da9de6d45-dirty",
+        "imreeyal": "68debed8826488a24b446a9d06dc0cb3fa18efcf"
       },
       "tokens": {
         "SMNGRP05": 0,
         "imreeyal": 0
       },
       "score": {
-        "SMNGRP05": 5,
-        "imreeyal": 20
+        "SMNGRP05": 10,
+        "imreeyal": 5
       },
       "log_files": {
         "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-imreeyal_g06.json",
@@ -230,40 +230,40 @@
         "tampered": false,
         "opponent_present": true,
         "results_agree": true,
-        "opponent_result_claim": "capture",
+        "opponent_result_claim": "survival",
         "tampering_detected": false
       }
     }
   ],
   "final_result": {
     "total_score": {
-      "SMNGRP05": 30,
-      "imreeyal": 90
+      "SMNGRP05": 47,
+      "imreeyal": 47
     },
     "sub_games_won": {
-      "SMNGRP05": 0,
-      "imreeyal": 6
+      "SMNGRP05": 3,
+      "imreeyal": 3
     },
     "ties": 0,
-    "winner_group": "imreeyal",
-    "series_tie": false,
+    "winner_group": null,
+    "series_tie": true,
     "tokens_total_series": {
       "SMNGRP05": 0,
       "imreeyal": 0
     },
     "games_played_including_this": {
-      "SMNGRP05": 4,
-      "imreeyal": 8
+      "SMNGRP05": 6,
+      "imreeyal": 10
     },
     "first_meeting_between_groups": true,
     "diversity_reward_applied": {
       "SMNGRP05": false,
-      "imreeyal": true
+      "imreeyal": false
     }
   },
   "mutual_agreement": {
-    "sha256": "bc6480b4c8430630e9652dbc6897d8ee135063ced768c9de5f84e649184f30f4",
+    "sha256": "a696ae2022ba14dc99b7c1f7ce1c026dcfe04afc4185ffc014df44bea78e8f2f",
     "confirmed": true,
-    "series_consensus_sha": "fe9444fa90ad927cc7c2977550e62b06ae43550cfea87cea6b0a8542dbe55c49"
+    "series_consensus_sha": "42413c66fd4567eebad42c78b02ffde0b15f6db0075132483b0a4f08d47e0c87"
   }
 }

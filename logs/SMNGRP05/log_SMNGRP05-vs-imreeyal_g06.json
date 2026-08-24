@@ -15,16 +15,96 @@
     "group_id": "SMNGRP05",
     "role": "thief",
     "opponent_group_id": "imreeyal",
-    "result": "capture",
-    "winner_role": "police",
-    "steps": 19,
+    "result": "survival",
+    "winner_role": "thief",
+    "steps": 35,
     "timezone": "Asia/Jerusalem",
-    "started_at": "2026-08-19T22:35:30.219495+00:00",
-    "ended_at": "2026-08-19T22:36:58.419495+00:00",
-    "duration_seconds": 88.2,
+    "started_at": "2026-08-24T11:11:50.909663+00:00",
+    "ended_at": "2026-08-24T11:13:45.169663+00:00",
+    "duration_seconds": 114.26,
     "tokens_total": 0,
     "barriers_used": 0,
     "phase_trail": [
+      "WAITING_FOR_OPPONENT",
+      "COMPUTING_MOVE",
+      "COMMITTING",
+      "AWAITING_REVEAL",
+      "VERIFYING",
+      "WAITING_FOR_OPPONENT",
+      "COMPUTING_MOVE",
+      "COMMITTING",
+      "AWAITING_REVEAL",
+      "VERIFYING",
+      "WAITING_FOR_OPPONENT",
+      "COMPUTING_MOVE",
+      "COMMITTING",
+      "AWAITING_REVEAL",
+      "VERIFYING",
+      "WAITING_FOR_OPPONENT",
+      "COMPUTING_MOVE",
+      "COMMITTING",
+      "AWAITING_REVEAL",
+      "VERIFYING",
+      "WAITING_FOR_OPPONENT",
+      "COMPUTING_MOVE",
+      "COMMITTING",
+      "AWAITING_REVEAL",
+      "VERIFYING",
+      "WAITING_FOR_OPPONENT",
+      "COMPUTING_MOVE",
+      "COMMITTING",
+      "AWAITING_REVEAL",
+      "VERIFYING",
+      "WAITING_FOR_OPPONENT",
+      "COMPUTING_MOVE",
+      "COMMITTING",
+      "AWAITING_REVEAL",
+      "VERIFYING",
+      "WAITING_FOR_OPPONENT",
+      "COMPUTING_MOVE",
+      "COMMITTING",
+      "AWAITING_REVEAL",
+      "VERIFYING",
+      "WAITING_FOR_OPPONENT",
+      "COMPUTING_MOVE",
+      "COMMITTING",
+      "AWAITING_REVEAL",
+      "VERIFYING",
+      "WAITING_FOR_OPPONENT",
+      "COMPUTING_MOVE",
+      "COMMITTING",
+      "AWAITING_REVEAL",
+      "VERIFYING",
+      "WAITING_FOR_OPPONENT",
+      "COMPUTING_MOVE",
+      "COMMITTING",
+      "AWAITING_REVEAL",
+      "VERIFYING",
+      "WAITING_FOR_OPPONENT",
+      "COMPUTING_MOVE",
+      "COMMITTING",
+      "AWAITING_REVEAL",
+      "VERIFYING",
+      "WAITING_FOR_OPPONENT",
+      "COMPUTING_MOVE",
+      "COMMITTING",
+      "AWAITING_REVEAL",
+      "VERIFYING",
+      "WAITING_FOR_OPPONENT",
+      "COMPUTING_MOVE",
+      "COMMITTING",
+      "AWAITING_REVEAL",
+      "VERIFYING",
+      "WAITING_FOR_OPPONENT",
+      "COMPUTING_MOVE",
+      "COMMITTING",
+      "AWAITING_REVEAL",
+      "VERIFYING",
+      "WAITING_FOR_OPPONENT",
+      "COMPUTING_MOVE",
+      "COMMITTING",
+      "AWAITING_REVEAL",
+      "VERIFYING",
       "WAITING_FOR_OPPONENT",
       "COMPUTING_MOVE",
       "COMMITTING",
@@ -122,39 +202,39 @@
       "GAME_OVER"
     ],
     "opponent_profile": {
-      "trust": 0.282,
-      "estimated_lie_rate": 0.718,
-      "hints_seen": 18,
-      "hints_scored": 16,
-      "alpha": 4.357,
-      "beta": 11.072
+      "trust": 0.296,
+      "estimated_lie_rate": 0.704,
+      "hints_seen": 34,
+      "hints_scored": 13,
+      "alpha": 3.734,
+      "beta": 8.878
     },
     "talker": {
       "provider": "template",
       "tokens": 0,
-      "self_credibility": 0.233,
+      "self_credibility": 0.078,
       "target_lie_rate": 0.45,
-      "hints_sent": 19,
-      "hints_falsifiable": 5
+      "hints_sent": 35,
+      "hints_falsifiable": 19
     },
     "audit": {
       "passed": true,
       "self_check": {
         "passed": true,
-        "verified_steps": 20,
-        "total_steps": 20,
+        "verified_steps": 36,
+        "total_steps": 36,
         "failed_steps": []
       },
       "opponent": {
         "passed": true,
-        "verified_steps": 19,
-        "total_steps": 19,
+        "verified_steps": 35,
+        "total_steps": 35,
         "failed_steps": []
       },
       "opponent_present": true,
-      "opponent_result_claim": "capture",
+      "opponent_result_claim": "survival",
       "results_agree": true,
-      "opponent_commit": "bdd451a66af252e9031b19dfd142afbd3df2be31",
+      "opponent_commit": "68debed8826488a24b446a9d06dc0cb3fa18efcf",
       "tampered_by": null,
       "commit_scheme": "sha256(json.dumps(payload, sort_keys=True, ensure_ascii=False, separators=(\",\",\":\")) + \"|\" + nonce)"
     }
@@ -178,11 +258,11 @@
         "model": "template-zero-token",
         "provider": "template",
         "code_version": "1.00",
-        "github_commit": "296e6e6481c2aac92aaa5290413c754d386d8575",
+        "github_commit": "41291d3052587805b6e88a9c8e6f5d7da9de6d45-dirty",
         "git": {
-          "commit": "296e6e6481c2aac92aaa5290413c754d386d8575",
+          "commit": "41291d3052587805b6e88a9c8e6f5d7da9de6d45-dirty",
           "branch": "main",
-          "tag": "v1.0-submission-53-g296e6e6"
+          "tag": "v1.0-submission-90-g41291d3"
         },
         "group_id": "SMNGRP05",
         "group_name": "SMNGRP05",
@@ -200,10 +280,10 @@
             "after_7_turns": 0.2
           }
         },
-        "declared_at": "2026-08-19T22:35:30.219432+00:00"
+        "declared_at": "2026-08-24T11:11:50.909601+00:00"
       },
-      "nonce": "c33ebd0c6439465e38a89d1cd3683d45",
-      "commit": "ca881557a6474d634e7ed83b2e906fb57bf5479c4691170d7d948ab53550835d"
+      "nonce": "14ee62673381044b79174c9d9a90b99e",
+      "commit": "3e8d9587cbe8cafe1ec473b2cd7b5a0f274f3f993fa6671b75b80c47291b48b1"
     },
     {
       "payload": {
@@ -235,8 +315,8 @@
         "capture_claim": null,
         "claim_response": null
       },
-      "nonce": "2e2ee7bbff50187ea0cbcfd0e9ae4134",
-      "commit": "0a06a812abc847315361d692e6f52ae0f01b9612c0e7534b047c8fec3e92a807"
+      "nonce": "5a38506ad5a5e439b4616d2c9220ed83",
+      "commit": "5787aa65a5b9538304fdcb080285f61d19ab675a95946ef9379a5b3a94341bdb"
     },
     {
       "payload": {
@@ -268,8 +348,8 @@
         "capture_claim": null,
         "claim_response": null
       },
-      "nonce": "d988c6d0d248e5cc93e261d65d71c33c",
-      "commit": "0ffe4179024325462cc460697f33111d1c73f4618934c53f9f0daed75fa55287"
+      "nonce": "04bb3815eb0249f9b15fa739ec388720",
+      "commit": "5c2c37c1e543c8d34965f38fcdfc56dd4a8597ff12ea4eceb15340b26b73dc59"
     },
     {
       "payload": {
@@ -301,8 +381,8 @@
         "capture_claim": null,
         "claim_response": null
       },
-      "nonce": "0b98c18695ebd7c7f89f00e2eac12155",
-      "commit": "e5304af1e7a287b469743cfd7c4008f26e1d83247154d919b996fdf944f074b2"
+      "nonce": "2944a84ccc709fc6e50da4abf5f9ae9a",
+      "commit": "ccae4ad38bf352c95528baaf20cf6dc33f91a5ea42389d76ab94e593e7564289"
     },
     {
       "payload": {
@@ -334,8 +414,8 @@
         "capture_claim": null,
         "claim_response": null
       },
-      "nonce": "ec4d628eb573180201f45f9cc3aa0bc8",
-      "commit": "55b35d068a587ae5f57f1047e4b225e6d94e6a67f39888df04e7ebc9fb070de4"
+      "nonce": "ceefea201fe1736c367d3f8055f6f26a",
+      "commit": "184957ca9f7671ab9a3fe68e3681f338a03c8f70f75d4fa18a5ef840b6bbf09d"
     },
     {
       "payload": {
@@ -367,8 +447,8 @@
         "capture_claim": null,
         "claim_response": null
       },
-      "nonce": "6498ee6ac3ce6bc3506e47bd2897cf85",
-      "commit": "0bd720f3e950ecc1b4f41c4c5b07a6adf4037fc2e02f48933443b59c7aea5b53"
+      "nonce": "4f4c144c91b40fff43edb800ea2dd948",
+      "commit": "a51edbf40c437b590ec8a541341f3cac5b5c9b520c2b4e871c780c44ed5f2734"
     },
     {
       "payload": {
@@ -400,8 +480,8 @@
         "capture_claim": null,
         "claim_response": null
       },
-      "nonce": "c6ae41d67b199c3557863db9b4eb6664",
-      "commit": "ef1ae9d98af9825a792af9b27113cbe6d77c54cb6efc2112cafdecc4d4122302"
+      "nonce": "a2a6b27d376a6f6632e819f60f0067e4",
+      "commit": "4a67aaa5800963d3d4b44a880a32bac0989f9b97e9e414d2decc2e7b41adf4e7"
     },
     {
       "payload": {
@@ -433,8 +513,8 @@
         "capture_claim": null,
         "claim_response": null
       },
-      "nonce": "3d32c43e228dfc6a3e0898aa4dd2d280",
-      "commit": "c1a0ebd4b4119afd1883a5a7884d72e652ee0601be052ffc00355877c3f46a33"
+      "nonce": "e8a636f9fa13fa64ace6e38d51f1d850",
+      "commit": "272a420537a106167c5ecd4bb99b8e3e59ecc673d853b0cb72487d498551b06e"
     },
     {
       "payload": {
@@ -466,8 +546,8 @@
         "capture_claim": null,
         "claim_response": null
       },
-      "nonce": "c03bc2c1ac41fc07b759917f5ccd713b",
-      "commit": "7b3d6382dd9459a8f4b120ad9451110d6d61bcddc0ef6453ad4b9500c8eca205"
+      "nonce": "282c5ab079a294637428584bd752d90f",
+      "commit": "819ad440476622df9fbd6929b63ea12e75e8a49aa55d856351d04af4df710bd8"
     },
     {
       "payload": {
@@ -499,8 +579,8 @@
         "capture_claim": null,
         "claim_response": null
       },
-      "nonce": "273c08412fce75c62827e08bd756011e",
-      "commit": "cb14189b50f8461d48545f89da3c191bde424ad138914f39d8b703e9d6f9d69e"
+      "nonce": "dc46ff2bdc25ef12862ba730de446e39",
+      "commit": "084eec897cb09151f38e48d38f40fe3254316c7a954fda758e36607978220606"
     },
     {
       "payload": {
@@ -532,8 +612,8 @@
         "capture_claim": null,
         "claim_response": null
       },
-      "nonce": "a0e4f2bd58536ff9c7d0e84c35ad018e",
-      "commit": "c567a32ae172727831b850fe96720582f43d980383b7aefcf9929e21e89f50b8"
+      "nonce": "e3bf69d40a245f5f0e827bd9d6037951",
+      "commit": "4e88542bf8d9bdd01717e86d8cece4cb946f8c2285dc1886e010820a969bd583"
     },
     {
       "payload": {
@@ -565,8 +645,8 @@
         "capture_claim": null,
         "claim_response": null
       },
-      "nonce": "d0a914ac40b329a7916a810fb14719a6",
-      "commit": "2fc715748e660e129f1eaa9bf3b3aec38003876001e1cf58069e52f5e4d591bb"
+      "nonce": "dae07bc5c5e1490c7faf4b372844a2c7",
+      "commit": "2d7961e2ad23484e922a1523d165222d8c8ec03e5f63a5833c5599bc699ca996"
     },
     {
       "payload": {
@@ -598,8 +678,8 @@
         "capture_claim": null,
         "claim_response": null
       },
-      "nonce": "ea613f9a556fb05baa3bda73d804c972",
-      "commit": "0474c4ec9e060714b3256cb6dcaecbd2dd4cc56786f4dd296b568395c21b181c"
+      "nonce": "d662398fd3be7f0804e0a63c1c22e5de",
+      "commit": "3504e5bb6c568509d6b706e2018a6755ac71f9b0da64b007fb0a6bc2e90a99a1"
     },
     {
       "payload": {
@@ -631,8 +711,8 @@
         "capture_claim": null,
         "claim_response": null
       },
-      "nonce": "9315194b1b633cc7847a6f7df980629a",
-      "commit": "f1b895a6121a29b16bdff1005623d8e7f4820483f15ae2dbefeac752bd7362b0"
+      "nonce": "dccdfff66429b66761c3a51f1cbfeafe",
+      "commit": "058e4cdc860ff767e8ff0d5de116eb29e1d48df23919945559d33556a2695289"
     },
     {
       "payload": {
@@ -664,29 +744,29 @@
         "capture_claim": null,
         "claim_response": null
       },
-      "nonce": "88a9ff1ca78c02e29b9e8426071111e0",
-      "commit": "40447cf90e0d0bd10f31be263b040d3ff71890c6e5061706bb0885134e6804a3"
+      "nonce": "dbfd2c39aa8ef06b3c46c8c0b4a2b98f",
+      "commit": "66742ece93006d5fcce17a67df43724069b16460abebcba18b63715f6c19d27e"
     },
     {
       "payload": {
         "step": 15,
         "role": "thief",
-        "state": "grid=7x7;self=[6, 1];barriers=[]",
+        "state": "grid=7x7;self=[5, 1];barriers=[]",
         "position": [
-          6,
+          5,
           1
         ],
-        "move": "S",
-        "action": "MOVE:S",
+        "move": "STAY",
+        "action": "HOLD:-",
         "barrier_placed": null,
         "intent": "lie",
         "verdict": "lie",
-        "hint": "Catch your breath, I am through astoria.",
+        "hint": "Already past astoria, and still moving.",
         "prompt_discussion": {
           "llm_prompt": "",
-          "llm_reasoning": "naming a decoy sector (urgency 0.49)",
+          "llm_reasoning": "naming a decoy sector (urgency 0.56)",
           "bluff_classification": "lie",
-          "move_rationale": "room=48/49 gap=3 exits=3 threats=2"
+          "move_rationale": "room=48/49 gap=2 exits=4 threats=2"
         },
         "model": "template-zero-token",
         "tokens_step": 0,
@@ -697,29 +777,29 @@
         "capture_claim": null,
         "claim_response": null
       },
-      "nonce": "c910db4cf20ac6ea98305ecf905455f0",
-      "commit": "0b5fbd15b0c2f557ee78c1ce5f0192e55e187fed7ef62bf8b2feb4ad8083ea49"
+      "nonce": "4fd9efcb218b287c1020701fed22fa5b",
+      "commit": "83e4f0336ab6cca12bac0882ece9d3e8cb46e2133cd3dfeb3b992451014188d9"
     },
     {
       "payload": {
         "step": 16,
         "role": "thief",
-        "state": "grid=7x7;self=[6, 0];barriers=[]",
+        "state": "grid=7x7;self=[5, 1];barriers=[]",
         "position": [
-          6,
-          0
+          5,
+          1
         ],
-        "move": "W",
-        "action": "MOVE:W",
+        "move": "STAY",
+        "action": "HOLD:-",
         "barrier_placed": null,
-        "intent": "truth",
-        "verdict": "truth",
-        "hint": "Still out here, still moving, still ahead of you.",
+        "intent": "lie",
+        "verdict": "lie",
+        "hint": "Slipping past astoria while you waste time.",
         "prompt_discussion": {
           "llm_prompt": "",
-          "llm_reasoning": "saying nothing that narrows the board",
-          "bluff_classification": "truth",
-          "move_rationale": "room=48/49 gap=3 exits=2 threats=2"
+          "llm_reasoning": "naming a decoy sector (urgency 0.57)",
+          "bluff_classification": "lie",
+          "move_rationale": "room=48/49 gap=2 exits=4 threats=1"
         },
         "model": "template-zero-token",
         "tokens_step": 0,
@@ -730,50 +810,17 @@
         "capture_claim": null,
         "claim_response": null
       },
-      "nonce": "a3bb502b21c41c4df810629f1444272b",
-      "commit": "8e1a9f6d024cc3006489cfc9d6219804b22b0834a270b3a534cdc3cd51d1d1c5"
+      "nonce": "3c8b1636093a54cf9ac2290a42e0fbd9",
+      "commit": "b645c3b98b9788130c4b46bdb5c794a43bdce2a07da4e335621d97fe9bef59f8"
     },
     {
       "payload": {
         "step": 17,
         "role": "thief",
-        "state": "grid=7x7;self=[6, 0];barriers=[]",
+        "state": "grid=7x7;self=[5, 1];barriers=[]",
         "position": [
-          6,
-          0
-        ],
-        "move": "STAY",
-        "action": "HOLD:-",
-        "barrier_placed": null,
-        "intent": "truth",
-        "verdict": "truth",
-        "hint": "Still out here, still moving, still ahead of you.",
-        "prompt_discussion": {
-          "llm_prompt": "",
-          "llm_reasoning": "saying nothing that narrows the board",
-          "bluff_classification": "truth",
-          "move_rationale": "room=48/49 gap=2 exits=2 threats=2"
-        },
-        "model": "template-zero-token",
-        "tokens_step": 0,
-        "tokens_total": 0,
-        "response_seconds": 0.0,
-        "opponent_trust": 0.288,
-        "claims_capture": false,
-        "capture_claim": null,
-        "claim_response": null
-      },
-      "nonce": "7135476a2bc729047f23f15b052bfa1c",
-      "commit": "ee7e032888e999438d99128a53556ca15b40645887d2486fda06fc9a26803573"
-    },
-    {
-      "payload": {
-        "step": 18,
-        "role": "thief",
-        "state": "grid=7x7;self=[6, 0];barriers=[[5, 0]]",
-        "position": [
-          6,
-          0
+          5,
+          1
         ],
         "move": "STAY",
         "action": "HOLD:-",
@@ -783,65 +830,620 @@
         "hint": "Already near queens, and still moving.",
         "prompt_discussion": {
           "llm_prompt": "",
-          "llm_reasoning": "naming a decoy sector (urgency 0.60)",
+          "llm_reasoning": "naming a decoy sector (urgency 0.59)",
           "bluff_classification": "lie",
-          "move_rationale": "room=47/49 gap=2 exits=1 threats=1"
+          "move_rationale": "room=48/49 gap=2 exits=4 threats=1"
         },
         "model": "template-zero-token",
         "tokens_step": 0,
         "tokens_total": 0,
         "response_seconds": 0.0,
-        "opponent_trust": 0.284,
+        "opponent_trust": 0.296,
         "claims_capture": false,
         "capture_claim": null,
         "claim_response": null
       },
-      "nonce": "9c33c986c131dbdcbf76c2400a72e4ac",
-      "commit": "40b4c7c8ee643e7bbac8c4cd392264f6056317434a83e1013cf7beb10e4e751a"
+      "nonce": "64beba6508abde15047c1d26c30607ab",
+      "commit": "8b39e1515509e154a0ade686c4b97cd30cb40e4fa32b96ddef57df79f9dd2faf"
     },
     {
       "payload": {
-        "step": 19,
+        "step": 18,
         "role": "thief",
-        "state": "grid=7x7;self=[6, 0];barriers=[[5, 0], [6, 1]]",
+        "state": "grid=7x7;self=[5, 1];barriers=[]",
         "position": [
-          6,
-          0
+          5,
+          1
         ],
         "move": "STAY",
         "action": "HOLD:-",
         "barrier_placed": null,
         "intent": "truth",
         "verdict": "truth",
-        "hint": "You got me.",
+        "hint": "You talk a lot for someone who has found nothing.",
         "prompt_discussion": {
           "llm_prompt": "",
-          "llm_reasoning": "",
+          "llm_reasoning": "saying nothing that narrows the board",
           "bluff_classification": "truth",
-          "move_rationale": "no legal move remains; conceding capture by enclosure (rule 47)"
+          "move_rationale": "room=48/49 gap=2 exits=4 threats=1"
         },
         "model": "template-zero-token",
         "tokens_step": 0,
         "tokens_total": 0,
         "response_seconds": 0.0,
-        "opponent_trust": 0.282,
+        "opponent_trust": 0.296,
         "claims_capture": false,
         "capture_claim": null,
-        "claim_response": {
-          "claim": [
-            6,
-            0
-          ],
-          "caught": true
-        }
+        "claim_response": null
       },
-      "nonce": "527bbd2a4f9564374bee184170db719e",
-      "commit": "b7369b1e49cd1961067fa14dc2f9bc320697400c1ad1aedb0f870897de8239df"
+      "nonce": "4105f060a57cff7f43bd4b254246c441",
+      "commit": "b0b3500a9cd16cc0d050601e908290635b97c7f79469af7140315f0180cf3a12"
+    },
+    {
+      "payload": {
+        "step": 19,
+        "role": "thief",
+        "state": "grid=7x7;self=[5, 1];barriers=[]",
+        "position": [
+          5,
+          1
+        ],
+        "move": "STAY",
+        "action": "HOLD:-",
+        "barrier_placed": null,
+        "intent": "lie",
+        "verdict": "lie",
+        "hint": "Already past queens, and still moving.",
+        "prompt_discussion": {
+          "llm_prompt": "",
+          "llm_reasoning": "naming a decoy sector (urgency 0.61)",
+          "bluff_classification": "lie",
+          "move_rationale": "room=48/49 gap=2 exits=4 threats=1"
+        },
+        "model": "template-zero-token",
+        "tokens_step": 0,
+        "tokens_total": 0,
+        "response_seconds": 0.0,
+        "opponent_trust": 0.296,
+        "claims_capture": false,
+        "capture_claim": null,
+        "claim_response": null
+      },
+      "nonce": "97accba9214a1d59c7e2f99d7d4feecf",
+      "commit": "3e140f57790ed941c92221306a78f0f64dba950263e5999fc90daae3d0ed4145"
+    },
+    {
+      "payload": {
+        "step": 20,
+        "role": "thief",
+        "state": "grid=7x7;self=[5, 1];barriers=[]",
+        "position": [
+          5,
+          1
+        ],
+        "move": "STAY",
+        "action": "HOLD:-",
+        "barrier_placed": null,
+        "intent": "lie",
+        "verdict": "lie",
+        "hint": "Slipping through astoria while you waste time.",
+        "prompt_discussion": {
+          "llm_prompt": "",
+          "llm_reasoning": "naming a decoy sector (urgency 0.63)",
+          "bluff_classification": "lie",
+          "move_rationale": "room=48/49 gap=2 exits=4 threats=1"
+        },
+        "model": "template-zero-token",
+        "tokens_step": 0,
+        "tokens_total": 0,
+        "response_seconds": 0.0,
+        "opponent_trust": 0.296,
+        "claims_capture": false,
+        "capture_claim": null,
+        "claim_response": null
+      },
+      "nonce": "98147f54c9f23f73322fe7ad8643e45e",
+      "commit": "2723b9d7702c6831d29faa7c455667e94473332e07353c03a38a2fddb4fd12e2"
+    },
+    {
+      "payload": {
+        "step": 21,
+        "role": "thief",
+        "state": "grid=7x7;self=[5, 1];barriers=[]",
+        "position": [
+          5,
+          1
+        ],
+        "move": "STAY",
+        "action": "HOLD:-",
+        "barrier_placed": null,
+        "intent": "lie",
+        "verdict": "lie",
+        "hint": "Slipping around astoria while you waste time.",
+        "prompt_discussion": {
+          "llm_prompt": "",
+          "llm_reasoning": "naming a decoy sector (urgency 0.64)",
+          "bluff_classification": "lie",
+          "move_rationale": "room=48/49 gap=2 exits=4 threats=1"
+        },
+        "model": "template-zero-token",
+        "tokens_step": 0,
+        "tokens_total": 0,
+        "response_seconds": 0.0,
+        "opponent_trust": 0.296,
+        "claims_capture": false,
+        "capture_claim": null,
+        "claim_response": null
+      },
+      "nonce": "205220b2a7640d0f27f598949c5ff238",
+      "commit": "3e3debe3b85f29bf199e00a2aef8ff85a93d33f05c7c8b885ee4e3e507c817f0"
+    },
+    {
+      "payload": {
+        "step": 22,
+        "role": "thief",
+        "state": "grid=7x7;self=[5, 1];barriers=[]",
+        "position": [
+          5,
+          1
+        ],
+        "move": "STAY",
+        "action": "HOLD:-",
+        "barrier_placed": null,
+        "intent": "lie",
+        "verdict": "lie",
+        "hint": "Catch your breath, I am near astoria.",
+        "prompt_discussion": {
+          "llm_prompt": "",
+          "llm_reasoning": "naming a decoy sector (urgency 0.66)",
+          "bluff_classification": "lie",
+          "move_rationale": "room=48/49 gap=2 exits=4 threats=1"
+        },
+        "model": "template-zero-token",
+        "tokens_step": 0,
+        "tokens_total": 0,
+        "response_seconds": 0.0,
+        "opponent_trust": 0.296,
+        "claims_capture": false,
+        "capture_claim": null,
+        "claim_response": null
+      },
+      "nonce": "9ac8169f229e6c1b38550d259cbfb2a0",
+      "commit": "94a3d348511797c847ec54ba533077f64f9bd0ae7423eec6483a9372a5ad3307"
+    },
+    {
+      "payload": {
+        "step": 23,
+        "role": "thief",
+        "state": "grid=7x7;self=[5, 1];barriers=[]",
+        "position": [
+          5,
+          1
+        ],
+        "move": "STAY",
+        "action": "HOLD:-",
+        "barrier_placed": null,
+        "intent": "lie",
+        "verdict": "lie",
+        "hint": "Catch your breath, I am near astoria.",
+        "prompt_discussion": {
+          "llm_prompt": "",
+          "llm_reasoning": "naming a decoy sector (urgency 0.67)",
+          "bluff_classification": "lie",
+          "move_rationale": "room=48/49 gap=2 exits=4 threats=1"
+        },
+        "model": "template-zero-token",
+        "tokens_step": 0,
+        "tokens_total": 0,
+        "response_seconds": 0.0,
+        "opponent_trust": 0.296,
+        "claims_capture": false,
+        "capture_claim": null,
+        "claim_response": null
+      },
+      "nonce": "0aecccff7b1abcb9d3491c77a17d745e",
+      "commit": "cef5995139c4a33375b48e6a63640cd90a8401d3c1876c695acaf3516f43e173"
+    },
+    {
+      "payload": {
+        "step": 24,
+        "role": "thief",
+        "state": "grid=7x7;self=[5, 1];barriers=[]",
+        "position": [
+          5,
+          1
+        ],
+        "move": "STAY",
+        "action": "HOLD:-",
+        "barrier_placed": null,
+        "intent": "truth",
+        "verdict": "truth",
+        "hint": "You talk a lot for someone who has found nothing.",
+        "prompt_discussion": {
+          "llm_prompt": "",
+          "llm_reasoning": "saying nothing that narrows the board",
+          "bluff_classification": "truth",
+          "move_rationale": "room=48/49 gap=2 exits=4 threats=1"
+        },
+        "model": "template-zero-token",
+        "tokens_step": 0,
+        "tokens_total": 0,
+        "response_seconds": 0.0,
+        "opponent_trust": 0.296,
+        "claims_capture": false,
+        "capture_claim": null,
+        "claim_response": null
+      },
+      "nonce": "27c713f9f6add970cbb64f3ec0b152b1",
+      "commit": "f7db940e35d930710ca560f6b9cf0691d671d57a8295918918b83a7eacbeb9b8"
+    },
+    {
+      "payload": {
+        "step": 25,
+        "role": "thief",
+        "state": "grid=7x7;self=[5, 1];barriers=[]",
+        "position": [
+          5,
+          1
+        ],
+        "move": "STAY",
+        "action": "HOLD:-",
+        "barrier_placed": null,
+        "intent": "lie",
+        "verdict": "lie",
+        "hint": "Already by astoria, and still moving.",
+        "prompt_discussion": {
+          "llm_prompt": "",
+          "llm_reasoning": "naming a decoy sector (urgency 0.70)",
+          "bluff_classification": "lie",
+          "move_rationale": "room=48/49 gap=2 exits=4 threats=1"
+        },
+        "model": "template-zero-token",
+        "tokens_step": 0,
+        "tokens_total": 0,
+        "response_seconds": 0.0,
+        "opponent_trust": 0.296,
+        "claims_capture": false,
+        "capture_claim": null,
+        "claim_response": null
+      },
+      "nonce": "86d7c7b3d615c728b5848070412e62e5",
+      "commit": "9f578418a287a7890e62c1b25b2350a254bee729c248bde8e8f9cc0283b2471a"
+    },
+    {
+      "payload": {
+        "step": 26,
+        "role": "thief",
+        "state": "grid=7x7;self=[5, 1];barriers=[]",
+        "position": [
+          5,
+          1
+        ],
+        "move": "STAY",
+        "action": "HOLD:-",
+        "barrier_placed": null,
+        "intent": "lie",
+        "verdict": "lie",
+        "hint": "Already past queens, and still moving.",
+        "prompt_discussion": {
+          "llm_prompt": "",
+          "llm_reasoning": "naming a decoy sector (urgency 0.71)",
+          "bluff_classification": "lie",
+          "move_rationale": "room=48/49 gap=2 exits=4 threats=1"
+        },
+        "model": "template-zero-token",
+        "tokens_step": 0,
+        "tokens_total": 0,
+        "response_seconds": 0.0,
+        "opponent_trust": 0.296,
+        "claims_capture": false,
+        "capture_claim": null,
+        "claim_response": null
+      },
+      "nonce": "681fe5e55ecc5f34bdaff6c6f6058d14",
+      "commit": "0a86470ffaf3e82b493917239c6419eed83657bb78d2484066fc9154c13fe15b"
+    },
+    {
+      "payload": {
+        "step": 27,
+        "role": "thief",
+        "state": "grid=7x7;self=[5, 1];barriers=[]",
+        "position": [
+          5,
+          1
+        ],
+        "move": "STAY",
+        "action": "HOLD:-",
+        "barrier_placed": null,
+        "intent": "truth",
+        "verdict": "truth",
+        "hint": "I have been in worse corners than this one.",
+        "prompt_discussion": {
+          "llm_prompt": "",
+          "llm_reasoning": "saying nothing that narrows the board",
+          "bluff_classification": "truth",
+          "move_rationale": "room=48/49 gap=2 exits=4 threats=1"
+        },
+        "model": "template-zero-token",
+        "tokens_step": 0,
+        "tokens_total": 0,
+        "response_seconds": 0.0,
+        "opponent_trust": 0.296,
+        "claims_capture": false,
+        "capture_claim": null,
+        "claim_response": null
+      },
+      "nonce": "4c9c02e352c36038668612a1d763dd70",
+      "commit": "e9696368bfe009f48a74490cc1d04265b400a0a86739e63ad25923896248db3b"
+    },
+    {
+      "payload": {
+        "step": 28,
+        "role": "thief",
+        "state": "grid=7x7;self=[5, 1];barriers=[]",
+        "position": [
+          5,
+          1
+        ],
+        "move": "STAY",
+        "action": "HOLD:-",
+        "barrier_placed": null,
+        "intent": "lie",
+        "verdict": "lie",
+        "hint": "Every alley through astoria knows me better than you do.",
+        "prompt_discussion": {
+          "llm_prompt": "",
+          "llm_reasoning": "naming a decoy sector (urgency 0.74)",
+          "bluff_classification": "lie",
+          "move_rationale": "room=48/49 gap=2 exits=4 threats=1"
+        },
+        "model": "template-zero-token",
+        "tokens_step": 0,
+        "tokens_total": 0,
+        "response_seconds": 0.0,
+        "opponent_trust": 0.296,
+        "claims_capture": false,
+        "capture_claim": null,
+        "claim_response": null
+      },
+      "nonce": "6c8191ec912b647c9717d5e2762bb2ae",
+      "commit": "5a2f4cff05013a82875b8eb46b2a74d576867148dd7d22ffba870184ccf72484"
+    },
+    {
+      "payload": {
+        "step": 29,
+        "role": "thief",
+        "state": "grid=7x7;self=[5, 1];barriers=[]",
+        "position": [
+          5,
+          1
+        ],
+        "move": "STAY",
+        "action": "HOLD:-",
+        "barrier_placed": null,
+        "intent": "truth",
+        "verdict": "truth",
+        "hint": "You talk a lot for someone who has found nothing.",
+        "prompt_discussion": {
+          "llm_prompt": "",
+          "llm_reasoning": "saying nothing that narrows the board",
+          "bluff_classification": "truth",
+          "move_rationale": "room=48/49 gap=2 exits=4 threats=1"
+        },
+        "model": "template-zero-token",
+        "tokens_step": 0,
+        "tokens_total": 0,
+        "response_seconds": 0.0,
+        "opponent_trust": 0.296,
+        "claims_capture": false,
+        "capture_claim": null,
+        "claim_response": null
+      },
+      "nonce": "a95e08c7299a5d2c468ca84ff3eaee42",
+      "commit": "245bafcf99e80585666e90d363f265d8b65932b0caead30f601d8e31dffc7be4"
+    },
+    {
+      "payload": {
+        "step": 30,
+        "role": "thief",
+        "state": "grid=7x7;self=[5, 1];barriers=[]",
+        "position": [
+          5,
+          1
+        ],
+        "move": "STAY",
+        "action": "HOLD:-",
+        "barrier_placed": null,
+        "intent": "lie",
+        "verdict": "lie",
+        "hint": "Already by astoria, and still moving.",
+        "prompt_discussion": {
+          "llm_prompt": "",
+          "llm_reasoning": "naming a decoy sector (urgency 0.77)",
+          "bluff_classification": "lie",
+          "move_rationale": "room=48/49 gap=2 exits=4 threats=1"
+        },
+        "model": "template-zero-token",
+        "tokens_step": 0,
+        "tokens_total": 0,
+        "response_seconds": 0.0,
+        "opponent_trust": 0.296,
+        "claims_capture": false,
+        "capture_claim": null,
+        "claim_response": null
+      },
+      "nonce": "307dfd1be0f89720a95cdfbfe6ef2eb7",
+      "commit": "4138a9b411292d088310436ff324b8d7f653f9b0d882a3e4ce1fd40f2fce5fb0"
+    },
+    {
+      "payload": {
+        "step": 31,
+        "role": "thief",
+        "state": "grid=7x7;self=[5, 1];barriers=[]",
+        "position": [
+          5,
+          1
+        ],
+        "move": "STAY",
+        "action": "HOLD:-",
+        "barrier_placed": null,
+        "intent": "lie",
+        "verdict": "lie",
+        "hint": "Every alley through astoria knows me better than you do.",
+        "prompt_discussion": {
+          "llm_prompt": "",
+          "llm_reasoning": "naming a decoy sector (urgency 0.79)",
+          "bluff_classification": "lie",
+          "move_rationale": "room=48/49 gap=2 exits=4 threats=1"
+        },
+        "model": "template-zero-token",
+        "tokens_step": 0,
+        "tokens_total": 0,
+        "response_seconds": 0.0,
+        "opponent_trust": 0.296,
+        "claims_capture": false,
+        "capture_claim": null,
+        "claim_response": null
+      },
+      "nonce": "7e25a5ab9443a65137a09d541c4c12b5",
+      "commit": "ed14052e02e8b863c8bad8052e8bc95f07f02e1a10d9116731bf97be6e04cc47"
+    },
+    {
+      "payload": {
+        "step": 32,
+        "role": "thief",
+        "state": "grid=7x7;self=[5, 1];barriers=[]",
+        "position": [
+          5,
+          1
+        ],
+        "move": "STAY",
+        "action": "HOLD:-",
+        "barrier_placed": null,
+        "intent": "lie",
+        "verdict": "lie",
+        "hint": "Catch your breath, I am past astoria.",
+        "prompt_discussion": {
+          "llm_prompt": "",
+          "llm_reasoning": "naming a decoy sector (urgency 0.80)",
+          "bluff_classification": "lie",
+          "move_rationale": "room=48/49 gap=2 exits=4 threats=1"
+        },
+        "model": "template-zero-token",
+        "tokens_step": 0,
+        "tokens_total": 0,
+        "response_seconds": 0.0,
+        "opponent_trust": 0.296,
+        "claims_capture": false,
+        "capture_claim": null,
+        "claim_response": null
+      },
+      "nonce": "0ad348c2e6272d853eda832f857cb6a9",
+      "commit": "6f7a32eabe59a37c9a6b4179f42943fff4c2c962d8c8fcb1932e26f896fc8fbd"
+    },
+    {
+      "payload": {
+        "step": 33,
+        "role": "thief",
+        "state": "grid=7x7;self=[5, 1];barriers=[]",
+        "position": [
+          5,
+          1
+        ],
+        "move": "STAY",
+        "action": "HOLD:-",
+        "barrier_placed": null,
+        "intent": "lie",
+        "verdict": "lie",
+        "hint": "Slipping through queens while you waste time.",
+        "prompt_discussion": {
+          "llm_prompt": "",
+          "llm_reasoning": "naming a decoy sector (urgency 0.81)",
+          "bluff_classification": "lie",
+          "move_rationale": "room=48/49 gap=2 exits=4 threats=1"
+        },
+        "model": "template-zero-token",
+        "tokens_step": 0,
+        "tokens_total": 0,
+        "response_seconds": 0.0,
+        "opponent_trust": 0.296,
+        "claims_capture": false,
+        "capture_claim": null,
+        "claim_response": null
+      },
+      "nonce": "0451c1dd24f0a38053e4b133a3047a25",
+      "commit": "1caaa77be609c2a8c6dacf4d3569e73d3a73df3edd5841465f92cbb5ef293da6"
+    },
+    {
+      "payload": {
+        "step": 34,
+        "role": "thief",
+        "state": "grid=7x7;self=[5, 1];barriers=[]",
+        "position": [
+          5,
+          1
+        ],
+        "move": "STAY",
+        "action": "HOLD:-",
+        "barrier_placed": null,
+        "intent": "truth",
+        "verdict": "truth",
+        "hint": "I have been in worse corners than this one.",
+        "prompt_discussion": {
+          "llm_prompt": "",
+          "llm_reasoning": "saying nothing that narrows the board",
+          "bluff_classification": "truth",
+          "move_rationale": "room=48/49 gap=2 exits=4 threats=1"
+        },
+        "model": "template-zero-token",
+        "tokens_step": 0,
+        "tokens_total": 0,
+        "response_seconds": 0.0,
+        "opponent_trust": 0.296,
+        "claims_capture": false,
+        "capture_claim": null,
+        "claim_response": null
+      },
+      "nonce": "76d24c4c96a67c106a0e5884addbaa4d",
+      "commit": "f043be10f0d96a5c5a45a8a15288eddc576f49f53e78fc53613f9ba547161262"
+    },
+    {
+      "payload": {
+        "step": 35,
+        "role": "thief",
+        "state": "grid=7x7;self=[5, 1];barriers=[]",
+        "position": [
+          5,
+          1
+        ],
+        "move": "STAY",
+        "action": "HOLD:-",
+        "barrier_placed": null,
+        "intent": "lie",
+        "verdict": "lie",
+        "hint": "Slipping around queens while you waste time.",
+        "prompt_discussion": {
+          "llm_prompt": "",
+          "llm_reasoning": "naming a decoy sector (urgency 0.84)",
+          "bluff_classification": "lie",
+          "move_rationale": "room=48/49 gap=2 exits=4 threats=1"
+        },
+        "model": "template-zero-token",
+        "tokens_step": 0,
+        "tokens_total": 0,
+        "response_seconds": 0.0,
+        "opponent_trust": 0.296,
+        "claims_capture": false,
+        "capture_claim": null,
+        "claim_response": null
+      },
+      "nonce": "6bdbf2d15b3cb7de2500b2c46338f30f",
+      "commit": "1fe65c0f0b5f0de5585b2a2490f63706181db27a2ed4084cd72c29aa607a6876"
     }
   ],
   "mutual_agreement": {
     "opponent_group_id": "imreeyal",
-    "sha256": "9d7e56a4182e7949903eaa420e5dd48eeba2556bc5d8a327b3cf582657bac6ca",
+    "sha256": "6116f64bef12b32a8d22ddf80bffd532dff0f2330262b8a3b359e21266ad55a5",
     "confirmed": true
   }
 }

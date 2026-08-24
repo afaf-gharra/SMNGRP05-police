@@ -12,8 +12,8 @@
     "result": "result_SMNGRP05-vs-anrbj666.json"
   },
   "timezone": "Asia/Jerusalem",
-  "game_started_at": "2026-08-24T09:57:15.360891+00:00",
-  "game_ended_at": "2026-08-24T10:02:13.472242+00:00",
+  "game_started_at": "2026-08-24T14:48:01.754883+00:00",
+  "game_ended_at": "2026-08-24T14:51:20.209513+00:00",
   "num_sub_games": 6,
   "max_tokens_per_game": 200000,
   "groups": {
@@ -29,8 +29,8 @@
         "thief": "https://github.com/afaf-gharra/SMNGRP05-thief"
       },
       "mcp_servers": {
-        "cop": "https://e6d6-147-236-163-154.ngrok-free.app/mcp",
-        "thief": "https://e6d6-147-236-163-154.ngrok-free.app/mcp"
+        "cop": "https://success-regular-annex-icons.trycloudflare.com/mcp",
+        "thief": "https://success-regular-annex-icons.trycloudflare.com/mcp"
       },
       "llm_model": "template-zero-token",
       "hardware_spec": {
@@ -41,7 +41,7 @@
         "gpu_model": "NVIDIA GeForce RTX 3070",
         "vram_gb": 8.0
       },
-      "signature": "be94c90856b72c7db25c8ebdf13ea96098191057e2d3bbe3dceabe8640aa3943"
+      "signature": "82acfb37ef10ed9057987d4850666e2b86481713b92c509b027a930f20cc8c08"
     },
     "group_2": {
       "group_id": "anrbj666",
@@ -70,5 +70,5 @@
       "signature": "1197626767007d00273841daf7994e4e474d9e096f4a826d58c6dff60aca2e38"
     }
   },
-  "declaration_sha256": "02fd19adbe53b485a30ffcd476e7a929266577ef0aa9d9591d25616559d31573"
+  "declaration_sha256": "09bb6563125845ee7361c11fb9647a3707534897a0fcf71e2fb403034530ca4e"
 }

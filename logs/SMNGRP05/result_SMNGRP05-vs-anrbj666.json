@@ -24,14 +24,14 @@
         "SMNGRP05": "police",
         "anrbj666": "thief"
       },
-      "started_at": "2026-08-24T09:57:15.360891+00:00",
-      "ended_at": "2026-08-24T09:57:31.930891+00:00",
+      "started_at": "2026-08-24T14:48:01.754883+00:00",
+      "ended_at": "2026-08-24T14:48:16.244883+00:00",
       "result": "survival",
       "winner_group": "anrbj666",
       "tie": false,
       "github_commit": {
-        "SMNGRP05": "a9da1fe01218370f25a5543be6fdcf327e8583cc-dirty",
-        "anrbj666": "1e69abe05930a504c8bc345b2a6fcd0902085761"
+        "SMNGRP05": "ee01ee5a622df0f6014ad16fad407971e64d1893",
+        "anrbj666": "7dbc14a703a89e2ddf73f991457e9131124de282"
       },
       "tokens": {
         "SMNGRP05": 0,
@@ -60,22 +60,22 @@
         "SMNGRP05": "thief",
         "anrbj666": "police"
       },
-      "started_at": "2026-08-24T10:00:22.773298+00:00",
-      "ended_at": "2026-08-24T10:00:43.133298+00:00",
-      "result": "survival",
-      "winner_group": "SMNGRP05",
+      "started_at": "2026-08-24T14:50:19.924247+00:00",
+      "ended_at": "2026-08-24T14:50:22.904247+00:00",
+      "result": "capture",
+      "winner_group": "anrbj666",
       "tie": false,
       "github_commit": {
-        "SMNGRP05": "a9da1fe01218370f25a5543be6fdcf327e8583cc-dirty",
-        "anrbj666": "29ff31993c725611f8c8b5d9d090b5738795a12e"
+        "SMNGRP05": "ee01ee5a622df0f6014ad16fad407971e64d1893",
+        "anrbj666": "9830041758cf018e4be492db8811325897d441b5"
       },
       "tokens": {
         "SMNGRP05": 0,
         "anrbj666": 0
       },
       "score": {
-        "SMNGRP05": 10,
-        "anrbj666": 5
+        "SMNGRP05": 5,
+        "anrbj666": 20
       },
       "log_files": {
         "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-anrbj666_g02.json",
@@ -86,7 +86,7 @@
         "tampered": false,
         "opponent_present": true,
         "results_agree": true,
-        "opponent_result_claim": "survival",
+        "opponent_result_claim": "capture",
         "tampering_detected": false
       }
     },
@@ -96,14 +96,14 @@
         "SMNGRP05": "police",
         "anrbj666": "thief"
       },
-      "started_at": "2026-08-24T10:00:47.398913+00:00",
-      "ended_at": "2026-08-24T10:01:04.718913+00:00",
+      "started_at": "2026-08-24T14:50:28.656183+00:00",
+      "ended_at": "2026-08-24T14:50:42.926183+00:00",
       "result": "survival",
       "winner_group": "anrbj666",
       "tie": false,
       "github_commit": {
-        "SMNGRP05": "a9da1fe01218370f25a5543be6fdcf327e8583cc-dirty",
-        "anrbj666": "1e69abe05930a504c8bc345b2a6fcd0902085761"
+        "SMNGRP05": "ee01ee5a622df0f6014ad16fad407971e64d1893",
+        "anrbj666": "7dbc14a703a89e2ddf73f991457e9131124de282"
       },
       "tokens": {
         "SMNGRP05": 0,
@@ -132,22 +132,22 @@
         "SMNGRP05": "thief",
         "anrbj666": "police"
       },
-      "started_at": "2026-08-24T10:01:08.950776+00:00",
-      "ended_at": "2026-08-24T10:01:28.460776+00:00",
-      "result": "survival",
-      "winner_group": "SMNGRP05",
+      "started_at": "2026-08-24T14:50:48.609737+00:00",
+      "ended_at": "2026-08-24T14:50:51.569737+00:00",
+      "result": "capture",
+      "winner_group": "anrbj666",
       "tie": false,
       "github_commit": {
-        "SMNGRP05": "a9da1fe01218370f25a5543be6fdcf327e8583cc-dirty",
-        "anrbj666": "29ff31993c725611f8c8b5d9d090b5738795a12e"
+        "SMNGRP05": "ee01ee5a622df0f6014ad16fad407971e64d1893",
+        "anrbj666": "9830041758cf018e4be492db8811325897d441b5"
       },
       "tokens": {
         "SMNGRP05": 0,
         "anrbj666": 0
       },
       "score": {
-        "SMNGRP05": 10,
-        "anrbj666": 5
+        "SMNGRP05": 5,
+        "anrbj666": 20
       },
       "log_files": {
         "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-anrbj666_g04.json",
@@ -158,7 +158,7 @@
         "tampered": false,
         "opponent_present": true,
         "results_agree": true,
-        "opponent_result_claim": "survival",
+        "opponent_result_claim": "capture",
         "tampering_detected": false
       }
     },
@@ -168,14 +168,14 @@
         "SMNGRP05": "police",
         "anrbj666": "thief"
       },
-      "started_at": "2026-08-24T10:01:32.853342+00:00",
-      "ended_at": "2026-08-24T10:01:49.043342+00:00",
+      "started_at": "2026-08-24T14:50:57.170975+00:00",
+      "ended_at": "2026-08-24T14:51:11.460975+00:00",
       "result": "survival",
       "winner_group": "anrbj666",
       "tie": false,
       "github_commit": {
-        "SMNGRP05": "a9da1fe01218370f25a5543be6fdcf327e8583cc-dirty",
-        "anrbj666": "1e69abe05930a504c8bc345b2a6fcd0902085761"
+        "SMNGRP05": "ee01ee5a622df0f6014ad16fad407971e64d1893",
+        "anrbj666": "7dbc14a703a89e2ddf73f991457e9131124de282"
       },
       "tokens": {
         "SMNGRP05": 0,
@@ -204,22 +204,22 @@
         "SMNGRP05": "thief",
         "anrbj666": "police"
       },
-      "started_at": "2026-08-24T10:01:54.522242+00:00",
-      "ended_at": "2026-08-24T10:02:13.472242+00:00",
-      "result": "survival",
-      "winner_group": "SMNGRP05",
+      "started_at": "2026-08-24T14:51:17.309513+00:00",
+      "ended_at": "2026-08-24T14:51:20.209513+00:00",
+      "result": "capture",
+      "winner_group": "anrbj666",
       "tie": false,
       "github_commit": {
-        "SMNGRP05": "a9da1fe01218370f25a5543be6fdcf327e8583cc-dirty",
-        "anrbj666": "29ff31993c725611f8c8b5d9d090b5738795a12e"
+        "SMNGRP05": "ee01ee5a622df0f6014ad16fad407971e64d1893",
+        "anrbj666": "9830041758cf018e4be492db8811325897d441b5"
       },
       "tokens": {
         "SMNGRP05": 0,
         "anrbj666": 0
       },
       "score": {
-        "SMNGRP05": 10,
-        "anrbj666": 5
+        "SMNGRP05": 5,
+        "anrbj666": 20
       },
       "log_files": {
         "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-anrbj666_g06.json",
@@ -230,40 +230,40 @@
         "tampered": false,
         "opponent_present": true,
         "results_agree": true,
-        "opponent_result_claim": "survival",
+        "opponent_result_claim": "capture",
         "tampering_detected": false
       }
     }
   ],
   "final_result": {
     "total_score": {
-      "SMNGRP05": 47,
-      "anrbj666": 47
+      "SMNGRP05": 30,
+      "anrbj666": 90
     },
     "sub_games_won": {
-      "SMNGRP05": 3,
-      "anrbj666": 3
+      "SMNGRP05": 0,
+      "anrbj666": 6
     },
     "ties": 0,
-    "winner_group": null,
-    "series_tie": true,
+    "winner_group": "anrbj666",
+    "series_tie": false,
     "tokens_total_series": {
       "SMNGRP05": 0,
       "anrbj666": 0
     },
     "games_played_including_this": {
-      "SMNGRP05": 6,
-      "anrbj666": 5
+      "SMNGRP05": 7,
+      "anrbj666": 6
     },
     "first_meeting_between_groups": true,
     "diversity_reward_applied": {
       "SMNGRP05": false,
-      "anrbj666": false
+      "anrbj666": true
     }
   },
   "mutual_agreement": {
-    "sha256": "9f04eee2bec3a1c1887b50dc9b907849828e985ecafe4843d8864609fccb8503",
+    "sha256": "ffa1ba3d29d675ba5e8ec4bf312e637615babd86bcae642dedad269e0ff32b2e",
     "confirmed": true,
-    "series_consensus_sha": "0fb5ae063322fbfa84fde4d73bea7a7f9396c7b3af8f4239362f392bdddf2994"
+    "series_consensus_sha": "da155e77be29310a21559d331c7fb1e5ce4528effb0b80081f3f165f334c938f"
   }
 }

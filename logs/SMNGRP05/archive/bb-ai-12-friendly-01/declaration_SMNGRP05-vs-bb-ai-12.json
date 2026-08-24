@@ -1,0 +1,68 @@
+{
+  "_schema": "Pre-game declaration covering the WHOLE match (every sub-game) between two teams. This is the single home for everything that does not change while the sub-games are played: team identity, members, the cop and thief repository URLs, MCP server URLs, hardware specification, language model, the agreed token ceiling, and the match start and end times. Roles alternate across sub-games, so no role and no sub_game_number appear here. Both teams sign this and lock it cryptographically before play begins (book ch.5, step zero). Anything that varies per sub-game — the commit hash, the moves, the scores — lives in the log and result artifacts instead.",
+  "schema_version": "1.1",
+  "declaration_type": "pre_game_declaration",
+  "game_id": "SMNGRP05-vs-bb-ai-12",
+  "game_uid": "f3116b05-86b2-e873-0422-d6d6b84d3c19",
+  "links": {
+    "_remark": "Logical roles, NOT fixed filenames. Every actual filename is derived from the game_id so files from different matches can never be confused. Match-level files (declaration, result) are named <role>_<game_id>.json; per-sub-game files (config, log) are named <role>_<game_id>_g<NN>.json where <NN> is the sub_game_number.",
+    "declaration": "declaration_SMNGRP05-vs-bb-ai-12.json",
+    "config": "config_SMNGRP05-vs-bb-ai-12_g<NN>.json",
+    "log": "log_SMNGRP05-vs-bb-ai-12_g<NN>.json",
+    "result": "result_SMNGRP05-vs-bb-ai-12.json"
+  },
+  "timezone": "Asia/Jerusalem",
+  "game_started_at": "2026-08-24T16:28:19.179449+00:00",
+  "game_ended_at": "2026-08-24T16:38:35.991168+00:00",
+  "num_sub_games": 6,
+  "max_tokens_per_game": 200000,
+  "groups": {
+    "group_1": {
+      "group_id": "SMNGRP05",
+      "group_name": "SMNGRP05",
+      "members": [
+        "Afaf Gharra",
+        "Reem Awawdy"
+      ],
+      "repos": {
+        "cop": "https://github.com/afaf-gharra/SMNGRP05-police",
+        "thief": "https://github.com/afaf-gharra/SMNGRP05-thief"
+      },
+      "mcp_servers": {
+        "cop": "https://branches-wedding-holdings-sticker.trycloudflare.com/mcp",
+        "thief": "https://branches-wedding-holdings-sticker.trycloudflare.com/mcp"
+      },
+      "llm_model": "template-zero-token",
+      "hardware_spec": {
+        "cpu_type": "AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD",
+        "cpu_freq_mhz": null,
+        "cpu_cores": 12,
+        "ram_gb": null,
+        "gpu_model": "NVIDIA GeForce RTX 3070",
+        "vram_gb": 8.0
+      },
+      "signature": "f4b52d5c56f169438531916e10f026fc8cb5603150009ca724f9b9d16fcf550c"
+    },
+    "group_2": {
+      "group_id": "bb-ai-12",
+      "group_name": "unnamed",
+      "members": [
+        "<student-id-1>",
+        "<student-id-2>"
+      ],
+      "repos": {},
+      "mcp_servers": {},
+      "llm_model": "template-zero-token",
+      "hardware_spec": {
+        "cpu_type": null,
+        "cpu_freq_mhz": null,
+        "cpu_cores": null,
+        "ram_gb": null,
+        "gpu_model": null,
+        "vram_gb": null
+      },
+      "signature": "14a94a2c10367ed54543fdd2c5e88404324d08546be3b2ebc6eb21f5b02630cf"
+    }
+  },
+  "declaration_sha256": "b9c17290a3869faa86c82b1e532b47c83c38a1200f75a4425edd9f4e236467a8"
+}

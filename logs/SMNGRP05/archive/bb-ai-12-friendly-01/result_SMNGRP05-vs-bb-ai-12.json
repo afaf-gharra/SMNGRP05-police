@@ -1,0 +1,269 @@
+{
+  "_schema": "Final result for the WHOLE match (all sub-games) between two teams. It condenses the per-sub-game logs into a per-group score for each sub-game plus the aggregate the lecturer needs to build the league standings. Static team metadata is not repeated here — it lives in the declaration and is referenced by game_id and group_id. Both teams must agree on this result and each sends its own copy (book ch.9).",
+  "schema_version": "1.1",
+  "report_type": "final_game_result",
+  "game_id": "SMNGRP05-vs-bb-ai-12",
+  "game_uid": "f3116b05-86b2-e873-0422-d6d6b84d3c19",
+  "links": {
+    "_remark": "Logical roles, NOT fixed filenames. Every actual filename is derived from the game_id so files from different matches can never be confused. Match-level files (declaration, result) are named <role>_<game_id>.json; per-sub-game files (config, log) are named <role>_<game_id>_g<NN>.json where <NN> is the sub_game_number.",
+    "declaration": "declaration_SMNGRP05-vs-bb-ai-12.json",
+    "config": "config_SMNGRP05-vs-bb-ai-12_g<NN>.json",
+    "log": "log_SMNGRP05-vs-bb-ai-12_g<NN>.json",
+    "result": "result_SMNGRP05-vs-bb-ai-12.json"
+  },
+  "timezone": "Asia/Jerusalem",
+  "groups": [
+    "SMNGRP05",
+    "bb-ai-12"
+  ],
+  "num_sub_games": 6,
+  "sub_games": [
+    {
+      "sub_game_number": 1,
+      "roles": {
+        "SMNGRP05": "police",
+        "bb-ai-12": "thief"
+      },
+      "started_at": "2026-08-24T16:28:19.179449+00:00",
+      "ended_at": "2026-08-24T16:29:29.619449+00:00",
+      "result": "survival",
+      "winner_group": "bb-ai-12",
+      "tie": false,
+      "github_commit": {
+        "SMNGRP05": "b803178f94a9ddcad338b52339eaf269dd620acb",
+        "bb-ai-12": "declared-in-their-own-report"
+      },
+      "tokens": {
+        "SMNGRP05": 0,
+        "bb-ai-12": 0
+      },
+      "score": {
+        "SMNGRP05": 5,
+        "bb-ai-12": 10
+      },
+      "log_files": {
+        "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-bb-ai-12_g01.json",
+        "bb-ai-12": "bb-ai-12/log_SMNGRP05-vs-bb-ai-12_g01.json"
+      },
+      "audit": {
+        "log_verified": false,
+        "tampered": true,
+        "opponent_present": true,
+        "results_agree": true,
+        "opponent_result_claim": "survival",
+        "tampering_detected": true
+      }
+    },
+    {
+      "sub_game_number": 2,
+      "roles": {
+        "SMNGRP05": "thief",
+        "bb-ai-12": "police"
+      },
+      "started_at": "2026-08-24T16:30:53.315304+00:00",
+      "ended_at": "2026-08-24T16:32:12.125304+00:00",
+      "result": "survival",
+      "winner_group": "SMNGRP05",
+      "tie": false,
+      "github_commit": {
+        "SMNGRP05": "b803178f94a9ddcad338b52339eaf269dd620acb",
+        "bb-ai-12": "declared-in-their-own-report"
+      },
+      "tokens": {
+        "SMNGRP05": 0,
+        "bb-ai-12": 0
+      },
+      "score": {
+        "SMNGRP05": 10,
+        "bb-ai-12": 5
+      },
+      "log_files": {
+        "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-bb-ai-12_g02.json",
+        "bb-ai-12": "bb-ai-12/log_SMNGRP05-vs-bb-ai-12_g02.json"
+      },
+      "audit": {
+        "log_verified": false,
+        "tampered": true,
+        "opponent_present": true,
+        "results_agree": true,
+        "opponent_result_claim": "survival",
+        "tampering_detected": true
+      }
+    },
+    {
+      "sub_game_number": 3,
+      "roles": {
+        "SMNGRP05": "police",
+        "bb-ai-12": "thief"
+      },
+      "started_at": "2026-08-24T16:33:19.355184+00:00",
+      "ended_at": "2026-08-24T16:34:18.395184+00:00",
+      "result": "survival",
+      "winner_group": "bb-ai-12",
+      "tie": false,
+      "github_commit": {
+        "SMNGRP05": "b803178f94a9ddcad338b52339eaf269dd620acb",
+        "bb-ai-12": "declared-in-their-own-report"
+      },
+      "tokens": {
+        "SMNGRP05": 0,
+        "bb-ai-12": 0
+      },
+      "score": {
+        "SMNGRP05": 5,
+        "bb-ai-12": 10
+      },
+      "log_files": {
+        "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-bb-ai-12_g03.json",
+        "bb-ai-12": "bb-ai-12/log_SMNGRP05-vs-bb-ai-12_g03.json"
+      },
+      "audit": {
+        "log_verified": false,
+        "tampered": true,
+        "opponent_present": true,
+        "results_agree": true,
+        "opponent_result_claim": "survival",
+        "tampering_detected": true
+      }
+    },
+    {
+      "sub_game_number": 4,
+      "roles": {
+        "SMNGRP05": "thief",
+        "bb-ai-12": "police"
+      },
+      "started_at": "2026-08-24T16:34:19.837893+00:00",
+      "ended_at": "2026-08-24T16:35:59.127893+00:00",
+      "result": "survival",
+      "winner_group": "SMNGRP05",
+      "tie": false,
+      "github_commit": {
+        "SMNGRP05": "b803178f94a9ddcad338b52339eaf269dd620acb",
+        "bb-ai-12": "declared-in-their-own-report"
+      },
+      "tokens": {
+        "SMNGRP05": 0,
+        "bb-ai-12": 0
+      },
+      "score": {
+        "SMNGRP05": 10,
+        "bb-ai-12": 5
+      },
+      "log_files": {
+        "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-bb-ai-12_g04.json",
+        "bb-ai-12": "bb-ai-12/log_SMNGRP05-vs-bb-ai-12_g04.json"
+      },
+      "audit": {
+        "log_verified": false,
+        "tampered": true,
+        "opponent_present": true,
+        "results_agree": true,
+        "opponent_result_claim": "survival",
+        "tampering_detected": true
+      }
+    },
+    {
+      "sub_game_number": 5,
+      "roles": {
+        "SMNGRP05": "police",
+        "bb-ai-12": "thief"
+      },
+      "started_at": "2026-08-24T16:36:00.616384+00:00",
+      "ended_at": "2026-08-24T16:36:53.976384+00:00",
+      "result": "survival",
+      "winner_group": "bb-ai-12",
+      "tie": false,
+      "github_commit": {
+        "SMNGRP05": "b803178f94a9ddcad338b52339eaf269dd620acb",
+        "bb-ai-12": "declared-in-their-own-report"
+      },
+      "tokens": {
+        "SMNGRP05": 0,
+        "bb-ai-12": 0
+      },
+      "score": {
+        "SMNGRP05": 5,
+        "bb-ai-12": 10
+      },
+      "log_files": {
+        "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-bb-ai-12_g05.json",
+        "bb-ai-12": "bb-ai-12/log_SMNGRP05-vs-bb-ai-12_g05.json"
+      },
+      "audit": {
+        "log_verified": false,
+        "tampered": true,
+        "opponent_present": true,
+        "results_agree": true,
+        "opponent_result_claim": "survival",
+        "tampering_detected": true
+      }
+    },
+    {
+      "sub_game_number": 6,
+      "roles": {
+        "SMNGRP05": "thief",
+        "bb-ai-12": "police"
+      },
+      "started_at": "2026-08-24T16:36:55.401168+00:00",
+      "ended_at": "2026-08-24T16:38:35.991168+00:00",
+      "result": "survival",
+      "winner_group": "SMNGRP05",
+      "tie": false,
+      "github_commit": {
+        "SMNGRP05": "b803178f94a9ddcad338b52339eaf269dd620acb",
+        "bb-ai-12": "declared-in-their-own-report"
+      },
+      "tokens": {
+        "SMNGRP05": 0,
+        "bb-ai-12": 0
+      },
+      "score": {
+        "SMNGRP05": 10,
+        "bb-ai-12": 5
+      },
+      "log_files": {
+        "SMNGRP05": "SMNGRP05/log_SMNGRP05-vs-bb-ai-12_g06.json",
+        "bb-ai-12": "bb-ai-12/log_SMNGRP05-vs-bb-ai-12_g06.json"
+      },
+      "audit": {
+        "log_verified": false,
+        "tampered": true,
+        "opponent_present": true,
+        "results_agree": true,
+        "opponent_result_claim": "survival",
+        "tampering_detected": true
+      }
+    }
+  ],
+  "final_result": {
+    "total_score": {
+      "SMNGRP05": 47,
+      "bb-ai-12": 47
+    },
+    "sub_games_won": {
+      "SMNGRP05": 3,
+      "bb-ai-12": 3
+    },
+    "ties": 0,
+    "winner_group": null,
+    "series_tie": true,
+    "tokens_total_series": {
+      "SMNGRP05": 0,
+      "bb-ai-12": 0
+    },
+    "games_played_including_this": {
+      "SMNGRP05": 7,
+      "bb-ai-12": 0
+    },
+    "first_meeting_between_groups": true,
+    "diversity_reward_applied": {
+      "SMNGRP05": false,
+      "bb-ai-12": false
+    }
+  },
+  "mutual_agreement": {
+    "sha256": "260fa4a26d98647e0c27d5040389cf00a3f5125a9ea34449cf8813839adff1b5",
+    "confirmed": false,
+    "series_consensus_sha": "6e69cc52406a1f9b30de5eebc3cb3dc4601af5d945cb8993778ec25d45f3761b"
+  }
+}
